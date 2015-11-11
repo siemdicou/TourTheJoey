@@ -15,3 +15,11 @@ html body {
 	height: 100%;
 	width: 80%;
 }
+
+#header{
+	height: 10%;
+	width: 100%;
+	background-color: red;
+
+}
+
