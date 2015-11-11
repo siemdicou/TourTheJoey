@@ -1,0 +1,17 @@
+html body {
+	background: url(../img/beeld.png);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	position: fixed;	
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	margin: 0% 10%;
+	background-color: white;
+	height: 100%;
+	width: 80%;
+}
