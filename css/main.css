@@ -54,11 +54,13 @@ footer{
 	display: inline-block;
 	padding: 0% 2%	;
 	color: white;
+	text-decoration: none;
 }
 
 #copyright{
 	display: inline-block;
 	padding-right: 2%;
+	text-decoration: none;
 }
 
 #content{
