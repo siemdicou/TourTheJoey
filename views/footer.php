@@ -1,7 +1,7 @@
 <footer>
-	&COPY; Joey en Siem  
-	<div class="footerButton">gebruiksvoorwaarden </div>
-	<div class="footerButton">privacy</div> 
-	<div class="footerButton">contact</div> 
-	<div class="footerButton">adverteren</div> 
+	<div id="copyright">&COPY; Joey en Siem</div>    
+	<a href="#" class="footerButton">gebruiksvoorwaarden </a>
+	<a href="#" class="footerButton">privacy </a>
+	<a href="#" class="footerButton">contact</a>
+	<a href="#" class="footerButton">adverteren </a>
 </footer>
