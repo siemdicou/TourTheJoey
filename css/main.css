@@ -31,7 +31,7 @@ html body {
 
 #sidebar img{
 	width: 100%;
-	margin-bottom: 10%;
+	margin-bottom: 5px;
 
 }
 
@@ -42,6 +42,7 @@ html body {
 }
 
 footer{
+    margin-top: 10px;
 	background-color: grey;
 	text-align: center;
 	padding: 1%;
@@ -50,7 +51,7 @@ footer{
 
 }
 .footerButton{
-	border-left: 1px solid ;	
+	border-left: 1px solid ;
 	/*border-right: 1px solid ;	*/
 	display: inline-block;
 	padding: 0% 2%	;
