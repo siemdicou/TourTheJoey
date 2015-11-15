@@ -18,8 +18,21 @@ html body {
 }
 
 #header{
-	height: 35%;
+    margin: 0% 8%;
+	height: 25%;
 	width: 100%;
+    background-color:grey;
+    width: 84%;
+
+}
+#logo{
+    background: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: red;
+    float: left;
+    width: 200px;
+    height: 200px;
 
 }
 #sidebar{
@@ -27,6 +40,7 @@ html body {
 	float: right;
 	height: 100%;
 	/*padding-bottom: 5%;*/
+
 }
 
 #sidebar img{
