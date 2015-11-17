@@ -76,7 +76,14 @@ html body {
 	height:30px;
 	margin: 0% 8%;
 }
-
+#liedjeswrap {
+    display:inline-block;
+}
+*{
+    text-decoration:none;
+    margin: 0;
+    padding: 0;
+}
 footer{
     margin-top: 10px;
 	background-color: #91FF00;
