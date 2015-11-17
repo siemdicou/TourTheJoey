@@ -2,12 +2,20 @@
 <div id="wrapper">
 	<div id="content">
 		<?php
+
+        $page = (empty($_GET['page'])) ? '' : $_GET['page'];
+
+        switch($page){
+            case
+
+        }
 			include 'views/body-content.php';
 
 			
 		 ?>
 
 	</div>
+
 	<div id="sidebar">
 		<?php
 
