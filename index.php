@@ -7,6 +7,8 @@
 	// include 'views/body-sidebar.php';
 	include 'views/footer.php';
 	$result = $mysqli->query("SELECT * FROM users");
-    // while($pictures=$result->fetch_assoc()){
+    while($users=$result->fetch_assoc()){
+  		echo $users['username'];
+    }
     
  ?>
