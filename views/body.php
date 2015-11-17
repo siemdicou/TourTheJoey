@@ -1,4 +1,4 @@
-<img src="img/placeholder.jpg" id="padgination">;
+<img src="img/placeholder.jpg" id="padgination">
 <div id="wrapper">
 	<div id="content">
 		<?php
@@ -6,23 +6,17 @@
         $page = (empty($_GET['page'])) ? '' : $_GET['page'];
 
         switch($page){
-            case 'top':
+            case top100:
                 include'top100.php';
-                break;
-            case 'prijsvraag':
-                include'';
-                break;
-            case 'ppp':
-                include'';
-                break;
-            case 'pp':
-                include'';
-                break;
-            case 'p':
-                include'';
-                break;
-//            default:
-////                include'top100.php';
+         	break;
+//            case prijsvraag:
+//                include'';
+//                break;
+//            case ppp:
+//                include'';
+//                break;
+//            case pp:
+//                include'';
 //                break;
         }
 			include 'views/body-content.php';
