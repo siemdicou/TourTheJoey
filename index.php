@@ -1,5 +1,5 @@
 <?php 
-	require_once 'config/config.php';
+	include 'config/config.php';
 	require_once 'includes/database.php';
 	include 'views/head.php';
 	include 'views/header.php';
