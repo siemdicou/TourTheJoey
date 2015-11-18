@@ -1,0 +1,1204 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ter",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fa",
+				"float"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"rect",
+				"rectHeigth"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"stud",
+				"student"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"row",
+				"rowlist"
+			],
+			[
+				"f",
+				"fun	function …"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"inlin",
+				"inline-table"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"i",
+				"inline-table"
+			],
+			[
+				"re",
+				"req	require …"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"templat",
+				"templateParser"
+			],
+			[
+				"search",
+				"search_string"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"page",
+				"page_nr"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"c",
+				"canvas"
+			],
+			[
+				"news",
+				"newsarticles"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pos",
+				"posY"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ul",
+				"upload"
+			],
+			[
+				"ha",
+				"header	Tag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"v",
+				"valB"
+			],
+			[
+				"val",
+				"valA"
+			],
+			[
+				"subs",
+				"substract"
+			],
+			[
+				"se",
+				"select	Tag"
+			],
+			[
+				"cl",
+				"clickNum"
+			],
+			[
+				"fill",
+				"fillText"
+			],
+			[
+				"stop",
+				"stopTime"
+			],
+			[
+				"star",
+				"startTime"
+			],
+			[
+				"User",
+				"UserID"
+			],
+			[
+				"g",
+				"createImageGallery"
+			],
+			[
+				"imag",
+				"image"
+			],
+			[
+				"image",
+				"imagegallery"
+			],
+			[
+				"preg_",
+				"preg_match"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"insert",
+				"mysql_insert_id"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"chosen",
+				"chosenQuestions"
+			],
+			[
+				"Gaine",
+				"GainedAmount"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"Qa",
+				"QAarray"
+			],
+			[
+				"Questio",
+				"QuestionNumber"
+			],
+			[
+				"QA",
+				"QAarray"
+			],
+			[
+				"B",
+				"AnswerB"
+			],
+			[
+				"value",
+				"ValueA"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"soc",
+				"sockets"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"maeg",
+				"margin-left"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"sct",
+				"scripttalen"
+			],
+			[
+				"score",
+				"scoreBoard"
+			],
+			[
+				"en",
+				"enemy"
+			],
+			[
+				"ene",
+				"enemies"
+			],
+			[
+				"mou",
+				"mouseX"
+			],
+			[
+				"d",
+				"dy"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"y",
+				"yRan"
+			],
+			[
+				"ba",
+				"Ball"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"gem",
+				"gemmiddeldeWaardering"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"aa",
+				"aantalWaarderingen"
+			],
+			[
+				"a",
+				"aantalWaarderingen"
+			],
+			[
+				"ge",
+				"gemmiddeldeWaardering"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ho",
+				"hover"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"dec",
+				"dec_field"
+			],
+			[
+				"dr",
+				"draw"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"e",
+				"enctype	Attr"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"mouse",
+				"mouseY"
+			],
+			[
+				"cli",
+				"clientX"
+			],
+			[
+				"draw",
+				"drawCanvas"
+			],
+			[
+				"date_de",
+				"date_default_timezone_set"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"load",
+				"loaded"
+			],
+			[
+				"roat",
+				"rotation"
+			],
+			[
+				"an",
+				"animationIndex"
+			],
+			[
+				"cou",
+				"counterStart"
+			],
+			[
+				"numberO",
+				"numberOnRow"
+			],
+			[
+				"s",
+				"stage"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"Li",
+				"LightboxOptions"
+			],
+			[
+				"R",
+				"random"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/config.php",
+			"settings":
+			{
+				"buffer_size": 306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/body-sidebar.php",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/body.php",
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/body-content.php",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 1460,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/top100.php",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Achievement: View Achievements"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/config",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/includes",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/logic",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views"
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/siemdicou.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views/body.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/eisen.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/includes/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar1/periode4/bap/thewall2/wall.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar1/periode4/bap/thewall2/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar1/periode4/bap/thewall2/get.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar1/periode4/bap/thewall2/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/rd/code.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/scoreboard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/style2.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/pro/MuseumWebApp/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/pro/MuseumWebApp/css/default.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views/head.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/views/content.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/bap/TourTheJoey/logic/search.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/pro/MuseumWebApp/js/NotificationBar.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/pro/MuseumWebApp/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode2/pro/groepsopdracht/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/img/Body001.png",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/indexz.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar1/periode4/bap/thewall2/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/login.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/portefolio.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/atabltetour/test.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/acme/style.css",
+		"/Users/siemdicou/Desktop/index.html",
+		"/Applications/XAMPP/htdocs/atabltetour/test.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/test.css",
+		"/Users/siemdicou/Desktop/index2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/head.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/eigenWebsite/about.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/tringale/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/ch3/triangle.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/rectangle/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/rectangle/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/rectangle/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/ch3/classes/triangle.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/amp/tringale/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/fotoboek.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/les8/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/les8/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/les8/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/bap/bap/func/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/bap/bap/func/func.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/test/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/test/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/concerten.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/events.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/cds.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/includes/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/home.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/productform.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/search_articles.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/newsarticles.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/navigation.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/select_newsarticles.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/select_events.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/select_cds.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/includes/bootstrap.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/test/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/test/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/fop/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/fop/bad_request.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/newsarticles.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aapje/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/search.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/search_result.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/search_script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/dogminer.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/sct/ajax/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/sct/ajax/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/views/head.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/projectz/logic/select_newsitems.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/newsarticles.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/css/style.css",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/amp/ch3/triangle.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/json/student.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/json/new.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/pro/json/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/navigation.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/fop/icon/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/bewijzenmap/leerjaar2/periode1/fop/icon/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/head.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/productform.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/includes/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/concerten.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/news.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/css/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/css/styleswag.css",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/amp/ch3/classes/triangle.js",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/amp/tringale/index.html",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/fop/sasstraining/index.html",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/fop/sasstraining/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/projectz/views/events.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/project/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/thewall2/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/project/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/project/views/header.tpl",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/sct/ding",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/project/style.css",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/pro/pro-les3/index.html",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/pro/pro-les3/script.js",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/fop/sasstraining/achievements",
+		"/Users/siemdicou/Documents/bewijzenmap/leerjaar2/periode1/fop/css/main.css",
+		"/Users/siemdicou/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/bap/regexpres/opdracht3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/leerjaar2/periode1/bap/regexpres/opdracht2.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h3",
+			"p",
+			"<div class=\"footerButton\">",
+			"privacy",
+			"</button>",
+			"<button>",
+			"pictures",
+			"($=$",
+			"www.",
+			"www",
+			" </",
+			"		\n",
+			">';\n",
+			";\n",
+			"li",
+			".digg_",
+			"a ",
+			"<a href=\"?page=events\">",
+			"li",
+			"h2",
+			"p",
+			"td",
+			"newsitem",
+			"echo",
+			" ",
+			"Question",
+			"Init",
+			"public",
+			"score",
+			"idNmbr",
+			"h1",
+			" \n",
+			"  	.",
+			" =",
+			"var ",
+			"seconds",
+			"var",
+			"img",
+			"6",
+			"if",
+			"6",
+			"im",
+			"img",
+			"auto",
+			";\n",
+			"http://bit.ly/yro1i",
+			"position:",
+			"position: absolute;",
+			"	\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/body-sidebar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/body.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/body-content.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 183.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/sidebar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/top100.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 84.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 28.0
+	},
+	"pinned_build_system": "Packages/User/Chrome.sublime-build",
+	"project": "siemdicou.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/aapje/Quiz-Element/QuizIndex.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 485.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

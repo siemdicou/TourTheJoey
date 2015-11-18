@@ -11,18 +11,24 @@ html body {
 	
 #wrapper{
 	margin: 0% 8%;
+<<<<<<< HEAD
 	background-color: #FFFF33;
+=======
+	background-color: white;
+>>>>>>> origin/master
 	height: 1200px;
 	width: 80%;
 	padding: 2%;	
 }
 
 #header{
+<<<<<<< HEAD
     background-color:#FFFF33;
+=======
+
+>>>>>>> origin/master
     margin: 0% 8%;
 	height: auto;
-
-
     width: 84%;
 
 }
@@ -30,7 +36,10 @@ html body {
     width: 20%;
     padding-bottom:25px;
     float: left;
+<<<<<<< HEAD
     background-color:#FFFF33;
+=======
+>>>>>>> origin/master
 }
 #logo img{
     width: 100%;
@@ -39,7 +48,10 @@ html body {
 #radio-number-search{
     float: left;
     width: 30%;
+<<<<<<< HEAD
     background-color: #FFFF33;
+=======
+>>>>>>> origin/master
 
 }
 #radio-number-search img{
@@ -76,14 +88,15 @@ html body {
 	height:30px;
 	margin: 0% 8%;
 }
-#liedjeswrap {
-    display:inline-block;
-}
-*{
+/**{
     text-decoration:none;
     margin: 0;
     padding: 0;
+}*/
+#liedjeswrap {
+    display:inline-block;
 }
+
 footer{
     margin-top: 10px;
 	background-color: #FFFF33;

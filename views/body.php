@@ -6,7 +6,7 @@
         $page = (empty($_GET['page'])) ? '' : $_GET['page'];
 
         switch($page){
-            case top100:
+            case 'top':
                 include'top100.php';
          	break;
 //            case prijsvraag:
