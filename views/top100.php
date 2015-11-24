@@ -3,8 +3,14 @@
     while($songs=$result->fetch_assoc()) 
     {
     	echo "<div id='liedjeswrap'>";
+        echo "<div class='numbers'>";
     	echo $songs['numbers'];
+        echo "</div>";
+        echo "<div id='songs'>";
+        echo "<b>";
   		echo $songs['song'];
+        echo "</b>";
+        echo "</div>";
   		echo "</div>";
   		echo "<br>";
     }
