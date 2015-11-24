@@ -1,9 +1,16 @@
 <?php
-	$result = $mysqli->query("SELECT * FROM liedjes ORDER BY numbers"  );
+	$i = 1;
+	$result = $mysqli->query("SELECT * FROM liedjes WHERE id ='$i' "  );
     while($songs=$result->fetch_assoc()) 
     {
+    	
     	echo "<div id='liedjeswrap'>";
+<<<<<<< Updated upstream
         echo "<div class='numbers'>";
+=======
+    	echo $songs['id'];
+    	echo "<Br>";
+>>>>>>> Stashed changes
     	echo $songs['numbers'];
         echo "</div>";
         echo "<div id='songs'>";
@@ -13,9 +20,11 @@
         echo "</div>";
   		echo "</div>";
   		echo "<br>";
+  		$i++;
     }
 
 ?>
+
 <!-- <html>
 
 1 liede een met znger en andere info</div>
