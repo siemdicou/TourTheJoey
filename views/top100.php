@@ -5,12 +5,9 @@
     {
     	
     	echo "<div id='liedjeswrap'>";
-<<<<<<< Updated upstream
         echo "<div class='numbers'>";
-=======
     	echo $songs['id'];
     	echo "<Br>";
->>>>>>> Stashed changes
     	echo $songs['numbers'];
         echo "</div>";
         echo "<div id='songs'>";
