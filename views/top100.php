@@ -1,6 +1,6 @@
 <?php
-	$i = 1;
-	$result = $mysqli->query("SELECT * FROM liedjes WHERE id ='$i' "  );
+	$i= array('1' => , );
+	$result = $mysqli->query("SELECT * FROM liedjes WHERE id ='$i' ");
     while($songs=$result->fetch_assoc()) 
     {
     	
@@ -17,7 +17,6 @@
         echo "</div>";
   		echo "</div>";
   		echo "<br>";
-  		$i++;
     }
 
 ?>
