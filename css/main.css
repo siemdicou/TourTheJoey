@@ -85,6 +85,11 @@ html body {
 #liedjeswrap {
     display:inline-block;
 }
+.numbers{
+    color:#ffffff;
+    background-color: #ff0000;
+    
+}
 #songs{
     border-bottom: dashed;
 

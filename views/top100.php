@@ -5,9 +5,9 @@
     {
     	
     	echo "<div id='liedjeswrap'>";
-        echo "<div class='numbers'>";
     	echo $songs['id'];
-    	echo "<Br>";
+        echo "<Br>";
+        echo "<div class='numbers'>";
     	echo $songs['numbers'];
         echo "</div>";
         echo "<div id='songs'>";
