@@ -1,5 +1,6 @@
-<img src="img/placeholder.jpg" id="padgination">
+
 <div id="wrapper">
+
 	<div id="content">
 		<?php
 
