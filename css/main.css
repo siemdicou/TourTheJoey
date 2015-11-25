@@ -30,7 +30,7 @@ html body {
     padding-bottom:25px;
     float: left;
 
-    background-color:#FFFF33;
+    /*background-color:#FFFF33;*/
 
 }
 #logo img{
@@ -135,3 +135,28 @@ footer{
 	padding: 0;
 	display: inline-block;
 }
+
+#topTekst{
+	margin-top:-98%;
+	padding-bottom: 24%;
+	text-align: center;
+	text-decoration: none;
+
+
+}
+
+#topTekst h2{
+	padding: 0;
+	margin: 0;
+	color: red;
+
+}
+#topTekst h1{
+	padding: 0;
+	margin: 0;
+	/*color: red;*/
+
+}
+
+
+

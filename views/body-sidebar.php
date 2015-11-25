@@ -1,6 +1,10 @@
-<a href="?page=top"><img src="img/01.png"></a>
-<a href="?page=top"><img src="img/01_2.png"></a>
-
+<a href="?page=top"><img src="img/01.png">
+<div id="topTekst"> 
+	<h2>Complete<h2>
+	<h1>Tour Top</h1>
+	<a href="?page=top"><img src="img/01_2.png"></a>
+</div>
+</a>
 <a href="?page=prijsvraag"><img src="img/02.png"></a>
 <a href="?page=ppp"><img src="img/03.png"></a>
 <a href="?page=pp"><div id="bn">
