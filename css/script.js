@@ -11,7 +11,7 @@ $f("audio", {
     plugins: {
         rtmp: {
             url: "flowplayer.rtmp-3.2.13.swf",
-            netConnectionUrl: "rtmp://stream-7.antenne.de/liveedge",
+            netConnectionUrl: "http://radioplayer.npo.nl/radio1/",
  
             // deal with potentially high server latency
             failOverDelay: 4000
