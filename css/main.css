@@ -138,8 +138,8 @@ footer{
 }
 
 #topTekst{
-	margin-top:-98%;
-	padding-bottom: 24%;
+	margin-top:-100%;
+	padding-bottom: 20%;
 	text-align: center;
 	text-decoration: none; 
 }
@@ -150,12 +150,17 @@ footer{
 	color: red;
 
 }
+
 #topTekst h1{
 	padding: 0;
-	margin: 0;
+	margin-top: 10px;
 	/*color: red;*/
-
 }
+
+#topTekst img{
+	width: 80%;
+}
+
 
 
 
