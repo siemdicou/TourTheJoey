@@ -9,6 +9,7 @@
     	echo $songs['id'];
         echo "<Br>";
         echo "<div class='numbers'>";
+        echo "<p>";
     	echo $songs['numbers'];
         echo "</div>";
         echo "<div id='songs'>";
@@ -16,6 +17,7 @@
   		echo $songs['song'];
         echo "</b>";
         echo "</div>";
+        echo "</p>";
   		echo "</div>";
   		echo "<br>";
     }

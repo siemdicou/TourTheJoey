@@ -83,12 +83,13 @@ html body {
     padding: 0;
 }*/
 #liedjeswrap {
-    display:inline-block;
+    display:inline;
 }
 .numbers{
     color:#ffffff;
     background-color: #ff0000;
-    
+    padding: 10px;
+
 }
 #songs{
     border-bottom: dashed;
