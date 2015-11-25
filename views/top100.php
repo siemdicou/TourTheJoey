@@ -1,6 +1,7 @@
 <?php
-	// $i= array('1' => , );
-	$result = $mysqli->query("SELECT * FROM liedjes WHERE id ='1' ");
+	// $i= array(1,2 );
+	
+	$result = $mysqli->query("SELECT * FROM liedjes ORDER BY numbers ");
     while($songs=$result->fetch_assoc()) 
     {
     	
