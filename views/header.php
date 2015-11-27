@@ -7,7 +7,8 @@
     </div>
     <div id="live-music"><img src="img/placeholder.jpg"> </div>
     <div id="fiets"><img src="img/fiets.png"></div>
-    <img src="img/placeholder.jpg" id="padgination">
+    
+    <!-- <img src="img/placeholder.jpg" id="padgination"> -->
 
 
 

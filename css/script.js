@@ -1,7 +1,7 @@
 // install flowplayer into container
 $f("audio", {
     // 2nd argument: Flash configuration
-    src: "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf",
+    src: "http://radioplayer.npo.nl/radio1/#videoshowing",
  
     // give the Flash object a background color
     // visible while player loads
@@ -10,8 +10,8 @@ $f("audio", {
     // 3rd argument: player configuration
     plugins: {
         rtmp: {
-            url: "flowplayer.rtmp-3.2.13.swf",
-            netConnectionUrl: "http://radioplayer.npo.nl/radio1/",
+            url: "http://radioplayer.npo.nl/radio1/#videoshowing",
+            netConnectionUrl: "http://radioplayer.npo.nl/radio1/#videoshowing",
  
             // deal with potentially high server latency
             failOverDelay: 4000

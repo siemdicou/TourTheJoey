@@ -73,8 +73,12 @@ margin-bottom: -100px;
 }
 
 #padgination {
-    width:100%;
+    width:84%;
     height:50px;
+    margin:0% 8%; 
+    background-color: red;	
+    text-align: center;
+
 
 }
 /**{
