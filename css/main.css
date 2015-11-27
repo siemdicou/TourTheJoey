@@ -104,10 +104,10 @@ margin-bottom: -100px;
 }
 footer{
     margin-top: 10px;
-    background-color: darkslategray;
+    background: linear-gradient(grey 20% , #59575B 80%);
     text-align: center;
     padding: 1%;
-    color: white;
+    color: #AEAEAE;
     width: 100%;
 
 }
@@ -116,7 +116,7 @@ footer{
     /*border-right: 1px solid ; */
     display: inline-block;
     padding: 0% 2% ;
-    color: white;
+    color: #AEAEAE;
     text-decoration: none;
 }
 
