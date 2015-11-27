@@ -73,10 +73,13 @@ margin-bottom: -100px;
 }
 
 #padgination {
-    width:84%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 84%;
     height:50px;
-    margin:0% 8%; 
-    background-color: red;	
+    margin:0% 8%;
+    background: linear-gradient(orange 5%, yellow 15%, white 80%);
+
     text-align: center;
 
 
