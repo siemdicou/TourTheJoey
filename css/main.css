@@ -188,22 +188,54 @@ footer{
 
     text-decoration: none;
 
+
 }
 
 #topTekst h2{
+
     padding: 0;
     margin: 0;
     color: red;
 
+
 }
 
 #topTekst h1{
+
     padding: 0;
     margin-top: 10px;
     color: black;
+
     /*color: red;*/
 }
 
 #topTekst img{
     width: 80%;
+    background-color: black;
+}
+#prijsvraag{
+    margin-top:-25%;
+    padding-bottom: 20%;
+    text-align: center;
+
+    /*background-image: url(../img/01.png);*/
+
+}
+#prijsvraag p{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#prijsvraag h2{
+    padding: 0;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+    background-color: black;
+    /*color: red;*/
 }
