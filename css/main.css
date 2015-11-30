@@ -27,6 +27,10 @@ html body {
 
 
 }
+    #radio{
+        height: 70px;
+        margin-left: 45%;
+    }
 
 #sub-nav table{
     text-align: right;
@@ -37,7 +41,7 @@ html body {
 
 }
 #sub-nav td{
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-right: solid 1px;  
 
 }
@@ -67,6 +71,7 @@ margin-bottom: -100px;
     float: right;
     width: 35%;
     padding-top:50px;
+    /*height: 70px;*/
 }
 #live-music img{
     width: 100%;
