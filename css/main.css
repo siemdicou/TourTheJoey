@@ -1,0 +1,241 @@
+html body {
+    background: url(../img/beeld.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    margin: 0% 8%;
+
+    background-color: white;
+    height: 1200px;
+    width: 80%;
+    padding: 2%;
+}
+
+
+#header{
+
+    margin: 0% 8%;
+    height: auto;
+    width: 84%;
+}
+#radio{
+    height: 70px;
+    float:right;
+    margin-right: 2%;   
+}
+
+#sub-nav {
+    text-align: right;
+    float: right;
+    width: 100%;
+    margin-top:1%; 
+    color:#A0A6A8;
+    margin-right: 8%; 
+}
+
+#logo{
+    width: 20%;
+    padding-bottom:25px;
+    float: left;
+
+    /*background-color:#FFFF33;*/
+
+}
+#radio-number-search{
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+}
+
+#radio-number-search2{
+    width: 100%;
+    height: 70px;
+}
+#fiets{
+padding-top:60px;
+float: right;
+margin-bottom: -20px;
+}
+
+#live-music{
+    float: right;
+    width: 35%;
+    padding-top:50px;
+    /*height: 70px;*/
+}
+
+#live-music img{
+    width: 100%;
+    height: 20px;
+
+}
+
+#sidebar{
+    width: 20%;
+    float: right;
+    height: 100%;
+    /*padding-bottom: 5%;*/
+
+}
+
+#sidebar img{
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+#padgination {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 84%;
+    height:50px;
+    margin:0% 8%;
+    background: linear-gradient(orange 5%, yellow 15%, white 80%);
+    text-align: center;
+
+
+}
+/**{
+    text-decoration:none;
+    margin: 0;
+    padding: 0;
+}*/
+#liedjeswrap {
+    display:inline;
+}
+.numbers{
+    color:#ffffff;
+    background-color: #ff0000;
+    padding: 10px;
+
+}
+#songs{
+    border-bottom: dashed;
+
+}
+footer{
+    margin-top: 10px;
+    background: linear-gradient(grey 20% , #59575B 80%);
+    text-align: center;
+    padding: 1%;
+    color: #AEAEAE;
+    width: 100%;
+
+}
+.footerButton{
+    border-left: 1px solid ;
+    /*border-right: 1px solid ; */
+    display: inline-block;
+    padding: 0% 2% ;
+    color: #AEAEAE;
+    text-decoration: none;
+}
+.header-Button{
+    border-right: 1px solid ;
+    /*border-right: 1px solid ; */
+    display: inline-block;
+    padding: 0% 1% ;
+    color:#717475;
+    text-decoration: none;
+}
+
+.right-Button{
+    display: inline-block;
+    padding-left: 1%;
+    color: #717475;
+    text-decoration: none;
+}
+
+#copyright{
+    display: inline-block;
+    padding-right: 2%;
+    text-decoration: none;
+}
+
+#content{
+    width: 78%;
+    float: left;
+
+}
+#content img{
+    width: 100%;
+}
+#bn{
+    width: 100%;
+}
+#bn img{
+    width: 49%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#topTekst{
+    margin-top:-95%;
+    padding-bottom: 20%;
+    text-align: center;
+    /*background-image: url(../img/01.png);*/
+
+}
+#topTekst a{
+
+    text-decoration: none;
+
+
+}
+
+#topTekst h2{
+
+    padding: 0;
+    margin: 0;
+    color: red;
+
+
+}
+
+#topTekst h1{
+
+    padding: 0;
+    margin-top: 10px;
+    color: black;
+
+    /*color: red;*/
+}
+
+#topTekst img{
+    width: 80%;
+    /*background-color: black;*/
+}
+#prijsvraag{
+    margin-top:-25%;
+    padding-bottom: 20%;
+    text-align: center;
+
+    /*background-image: url(../img/01.png);*/
+
+}
+#prijsvraag p{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#prijsvraag h2{
+    padding: 0;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+    background-color: black;
+    /*color: red;*/
+}
