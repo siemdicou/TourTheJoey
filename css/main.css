@@ -19,12 +19,27 @@ html body {
     padding: 2%;
 }
 
+
 #header{
 
     margin: 0% 8%;
     height: auto;
     width: 84%;
 
+
+}
+
+#sub-nav table{
+    text-align: right;
+    float: right;
+    /*width: 50 %;*/
+    color:grey;
+
+
+}
+#sub-nav td{
+    padding: 5px 20px;
+    border-right: solid 1px;  
 
 }
 #logo{
@@ -38,10 +53,10 @@ html body {
 #radio-number-search{
     float: left;
     width: 30%;
+    padding-top: 20px;
 }
 
 #radio-number-search2{
-
     width: 100%;
     height: 70px;
 }
