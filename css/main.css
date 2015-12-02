@@ -4,7 +4,7 @@ html body {
     background-repeat: no-repeat;
     background-position: fixed;
     height: 100%;
-    width: 100%;
+    width: 98%;
     padding: 0;
     margin: 0;
 }
@@ -18,9 +18,7 @@ html body {
     padding: 2%;
 }
 
-
 #header{
-
     margin: 0% 8%;
     height: auto;
     width: 84%;
@@ -58,10 +56,11 @@ html body {
     width: 100%;
     height: 70px;
 }
+
 #fiets{
-padding-top:60px;
-float: right;
-margin-bottom: -20px;
+    padding-top:60px;
+    float: right;
+    margin-bottom: -20px;
 }
 
 #live-music{
@@ -181,14 +180,12 @@ footer{
     margin-top:-95%;
     padding-bottom: 20%;
     text-align: center;
+
     /*background-image: url(../img/01.png);*/
-
 }
+
 #topTekst a{
-
     text-decoration: none;
-
-
 }
 
 #topTekst h2{
@@ -196,8 +193,6 @@ footer{
     padding: 0;
     margin: 0;
     color: red;
-
-
 }
 
 #topTekst h1{
@@ -212,6 +207,12 @@ footer{
 #topTekst img{
     width: 80%;
     /*background-color: black;*/
+}
+
+#imgTop{
+   /*-webkit-filter: blur(5px); -moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px); */
+   /*position: relative;*/
+   /*float: right;*/
 }
 #prijsvraag{
     margin-top:-25%;
