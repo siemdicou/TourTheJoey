@@ -51,7 +51,7 @@
 
 
 
-
+<h1>Reageer op dit bericht</h1>
 
 <form method="POST">
 <p>naam</p>
