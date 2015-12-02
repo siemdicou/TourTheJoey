@@ -8,8 +8,6 @@
 			    	// echo $new_id;	
 			    	echo "<br>";
 			    	echo "</a>";
-			    	echo $songs['numbers'];
-			    	echo $songs['song'];
 			    	echo "<br>";
 			 
 	   	}
@@ -41,7 +39,6 @@
 			    	echo "<a href='index.php?page=detail&id=".$new_id3." '>";
 			    	echo $songs['numbers'];
 			    	echo $songs['song'];
-			    	// echo $new_id3;	
 			    	echo "<br>";
 			    	echo "</a>";
 			    	echo "<br>";
