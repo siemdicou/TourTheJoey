@@ -1,26 +1,25 @@
 <?php
-	// $i= array(1,2 );
-	
 	$result = $mysqli->query("SELECT * FROM liedjes ORDER BY numbers ");
-    while($songs=$result->fetch_assoc()) 
-    {
-    	
-    	echo "<div id='liedjeswrap'>";
-    	echo $songs['id'];
-        echo "<Br>";
-        echo "<div class='numbers'>";
-        echo "<p>";
-    	echo $songs['numbers'];
-        echo "</div>";
-        echo "<div id='songs'>";
-        echo "<b>";
-  		echo $songs['song'];
-        echo "</b>";
-        echo "</div>";
-        echo "</p>";
-  		echo "</div>";
-  		echo "<br>";
-    }
+    $songs=$result->fetch_assoc();
+    // {
+    	for ($i=1; $i <= 5 ; $i++) { 
+            echo "<a href='index.php?id=$i'>".$songs['song']."</a>";
+            echo "<div id='liedjeswrap'>";
+            echo "<Br>";
+            echo "<div class='numbers'>";
+            echo "<p>";
+            echo $songs['numbers'];
+            echo "</div>";
+            echo "<div id='songs'>";
+            echo "<b>";
+            echo "</b>";
+            echo "</div>";
+            echo "</p>";
+            echo "</div>";
+            echo "<br>";
+        }
+
+    // }
 
 ?>
 
