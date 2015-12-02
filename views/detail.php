@@ -1,43 +1,52 @@
-<?php 
-	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$_GET["id"]."'");
-    $songs=$result->fetch_assoc();
-    {	
-    	// echo "<a href=".$id-1.">";
-    	echo $id-1;
-    	echo "<br>";
-    	// echo "</a>";
-    	echo $songs['numbers'];
-    	echo $songs['song' ];
-    	echo "<br>";
-    }
-	
-    $songs2=$result->fetch_assoc();
-    {
-    	echo "<div id='liedjeswrap'>";
-        echo "<div class='numbers'>";
-        echo "<p>";
-    	echo $songs['numbers'];
-        echo "</div>";
-        echo "<div id='songs'>";
-        echo "<b>";
-  		echo $songs['song'];
-        echo "</b>";
-        echo "</div>";
-        echo "</p>";
-  		echo "</div>";
-  		echo "<br>";
-    }
-    	
-        $songs3=$result->fetch_assoc();
-    {	
-    	echo $id+1;
-    	echo "<br>";
-    	echo $songs['numbers'];
-    	echo $songs['song'];
+<?php
+		$new_id=$_GET['id']-1;
+	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$new_id."'");
+	   	while ($songs=$result->fetch_assoc()) {
+			    	echo "<a href='index.php?page=detail&id=".$new_id." '>";
+			    	
+			    	// echo $new_id;	
+			    	echo "<br>";
+			    	echo "</a>";
+			    	echo $songs['numbers'];
+			    	echo $songs['song'];
+			    	echo "<br>";
+			 
+	   	}
+    
+	   	$new_id2=$new_id+1;
+	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$new_id2."'");
+	    $songs=$result->fetch_assoc();
+	    {
+	    	// echo $new_id2;
+	    	echo "<div id='liedjeswrap'>";
+	        echo "<div class='numbers'>";
+	        echo "<p>";
+	    	echo $songs['numbers'];
+	        echo "</div>";
+	        echo "<div id='songs'>";
+	        echo "<b>";
+	  		echo $songs['song'];
+	        echo "</b>";
+	        echo "</div>";
+	        echo "</p>";
+	  		echo "</div>";
+	  		echo "<br>";
 
-    	echo "<br>";
-   
-    }
+	    }
+ 
+    	$new_id3=$new_id2+1;
+	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$new_id3."'");
+	   	while ($songs=$result->fetch_assoc()) {
+			    	echo "<a href='index.php?page=detail&id=".$new_id3." '>";
+			    	
+			    	// echo $new_id3;	
+			    	echo "<br>";
+			    	echo "</a>";
+			    	echo $songs['numbers'];
+			    	echo $songs['song'];
+			    	echo "<br>";
+			 
+	   	}
 
      ?>
 
@@ -56,7 +65,9 @@
 
 <p>reactie</p>
 <input type="text">
+<dd></dd>
 
 <input type="submit" value="Send">
 
 </form>
+
