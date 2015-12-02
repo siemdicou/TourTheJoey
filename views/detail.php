@@ -1,8 +1,8 @@
 <?php
-		$new_id=$_GET['id']-1;
-	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$new_id."'");
+		$previous_id=$_GET['id']-1;
+	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
-			    	echo "<a href='index.php?page=detail&id=".$new_id." '>";
+			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
 			    	echo $songs['numbers'];
 			    	echo $songs['song'];
 			    	// echo $new_id;	
@@ -12,8 +12,8 @@
 			 
 	   	}
     
-	   	$new_id2=$new_id+1;
-	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$new_id2."'");
+	   	$current_id=$previous_id+1;
+	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$current_id."'");
 	    $songs=$result->fetch_assoc();
 	    {
 	    	// echo $new_id2;
@@ -35,10 +35,10 @@
 
 	    }
  
-    	$new_id3=$new_id2+1;
-	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$new_id3."'");
+    	$current_id=$next_id+1;
+	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
-			    	echo "<a href='index.php?page=detail&id=".$new_id3." '>";
+			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 			    	echo $songs['numbers'];
 			    	echo $songs['song'];
 			    	echo "<br>";
