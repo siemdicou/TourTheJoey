@@ -3,7 +3,7 @@
     $songs=$result->fetch_assoc();
     // {
     	for ($i=1; $i <= 5 ; $i++) { 
-            echo "<a href='index.php?id=$i'>".$songs['song']."</a>";
+            echo "<a href='index.php?id='".$songs['song']."</a>";
             echo "<div id='liedjeswrap'>";
             echo "<Br>";
             echo "<div class='numbers'>";
