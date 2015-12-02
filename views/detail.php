@@ -1,4 +1,5 @@
 <?php
+<div
 		$previous_id=$_GET['id']-1;
 	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
@@ -35,7 +36,7 @@
 
 	    }
  
-    	$current_id=$next_id+1;
+    	$next_id=$current_id+1;
 	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
