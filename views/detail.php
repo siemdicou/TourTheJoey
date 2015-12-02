@@ -29,7 +29,9 @@
 	        echo "</div>";
 	        echo "</p>";
 	  		echo "</div>";
+	  		echo $songs['detail'];
 	  		echo "<br>";
+
 
 	    }
  
