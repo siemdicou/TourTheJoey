@@ -1,5 +1,4 @@
 <?php
-<div
 		$previous_id=$_GET['id']-1;
 	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
