@@ -23,7 +23,7 @@
          	break;
 
          	default:
-         		include 'views/home.php';
+         		// include 'views/home.php';
          	break;	
          	};
 

@@ -1,9 +1,9 @@
 <?php
-	$result = $mysqli->query("SELECT * FROM liedjes ORDER BY numbers ");
-    $songs=$result->fetch_assoc();
+	$result = $mysqli->query("SELECT * FROM liedjes ORDER BY numbers");
+    while ($songs=$result->fetch_assoc()){
     // {
-    	for ($i=1; $i <= 5 ; $i++) { 
-            echo "<a href='index.php?id='".$songs['song']."</a>";
+    	// for ($i=1; $i <= 5 ; $i++) { 
+            echo "<a href='index.php?page=detail&id=".$songs['id']."'".$songs['song'].">";
             echo "<div id='liedjeswrap'>";
             echo "<Br>";
             echo "<div class='numbers'>";
@@ -17,6 +17,7 @@
             echo "</p>";
             echo "</div>";
             echo "<br>";
+            echo "</a>";
         }
 
     // }
