@@ -4,11 +4,14 @@
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
 			    	echo $songs['numbers'];
-			    	echo $songs['song'];
+			    	echo " ";
+			    	utf8_encode($songs['song_title']);
+			    	echo $songs['song_title'];
 			    	// echo $new_id;	
 			    	echo "<br>";
 			    	echo "</a>";
 			    	echo "<br>";
+
 			 
 	   	}
     
@@ -24,7 +27,8 @@
 	        echo "</div>";
 	        echo "<div id='songs'>";
 	        echo "<b>";
-	  		echo $songs['song'];
+	  		echo $songs['song_title'];
+	  		echo " ";
 	        echo "</b>";
 	        echo "</div>";
 	        echo "</p>";
@@ -32,7 +36,7 @@
 	  		echo $songs['detail'];
 	  		echo "<br>";
 
-
+			
 	    }
  
     	$next_id=$current_id+1;
@@ -40,7 +44,8 @@
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 			    	echo $songs['numbers'];
-			    	echo $songs['song'];
+			    	echo " ";
+			    	echo $songs['song_title'];
 			    	echo "<br>";
 			    	echo "</a>";
 			    	echo "<br>";
@@ -69,4 +74,5 @@
 <input type="submit" value="Send">
 
 </form>
+
 
