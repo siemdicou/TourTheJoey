@@ -35,6 +35,7 @@
 	        echo "</div>";
 	        echo "</p>";
 	  		echo "</div>";
+	  		echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'></iframe>";
 	  		echo $songs['detail'];
 	  		echo "<br>";
 
