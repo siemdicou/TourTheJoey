@@ -3,7 +3,9 @@
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
+                    echo "<div id='detail-numbers-right'>";
 			    	echo $songs['numbers'];
+                    echo "</div>";
 			    	echo " ";
 			    	// utf8_encode($songs['song_title']);
 			    	echo utf8_encode($songs['song_title']);
@@ -22,7 +24,9 @@
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
-			    	echo $songs['numbers'];
+			        echo "<div id='detail-numbers-left'>";
+                    echo $songs['numbers'];
+                    echo "</div>";
 			    	echo " ";
 			    	echo utf8_encode($songs['song_title']);
 			    	echo "<br>";

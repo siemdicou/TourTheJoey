@@ -97,11 +97,25 @@ html body {
 
 
 }
-/**{
-    text-decoration:none;
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>detail page<<<<<<<<<<<<<<<<<<<<<*/
+#detail-numbers-left{
+    font-style: italic;
+    color: white;
+    background-color: red;
+    float: left;
+    padding: 5px;
     margin: 0;
-    padding: 0;
-}*/
+}
+#detail-numbers-right{
+    font-style: italic;
+    color: white;
+    background-color: red;
+    float: right;
+    padding: 5px;
+    margin: 0;
+}
 #liedjeswrap {
     display:inline;
 }
