@@ -1,5 +1,5 @@
 <?php
-	$result = $mysqli->query("SELECT * FROM liedjes ORDER BY numbers");
+	$result = $mysqli->query("SELECT * FROM songs ORDER BY numbers");
     while ($songs=$result->fetch_assoc()){
     // {
     	// for ($i=1; $i <= 5 ; $i++) { 

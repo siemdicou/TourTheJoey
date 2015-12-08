@@ -1,6 +1,6 @@
 <?php
 		$previous_id=$_GET['id']-1;
-	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$previous_id."'");
+	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
 			    	echo $songs['numbers'];
@@ -16,7 +16,7 @@
 	   	}
     
 	   	$current_id=$previous_id+1;
-	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$current_id."'");
+	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$current_id."'");
 	    $songs=$result->fetch_assoc();
 	    {
 	    	// echo $new_id2;
@@ -28,6 +28,8 @@
 	        echo "<div id='songs'>";
 	        echo "<b>";
 	  		echo $songs['song_title'];
+	  		echo "<br>";
+	  		echo $songs['artist'];
 	  		echo " ";
 	        echo "</b>";
 	        echo "</div>";
@@ -40,7 +42,7 @@
 	    }
  
     	$next_id=$current_id+1;
-	   	$result = $mysqli->query("SELECT * FROM liedjes WHERE id='".$next_id."'");
+	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 			    	echo $songs['numbers'];
@@ -65,14 +67,30 @@
 <p>email (wordt niet getoond)</p>
 <input type="email">
 <p>website</p>
-<input type="text">
+<input type="text" >
 
 <p>reactie</p>
-<input type="text">
-<dd></dd>
-
+<!-- <input type="text" size="50" cols="30" maxlength="50"> -->
+<textarea value="vul "></textarea>
+<br>
+<table>
+<tr>
+<td>
+<input type="checkbox">
+</td>
+<td>Gegevens onthouden</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox">	
+</td>
+<td>Mail bij nieuwe reactie 
+</td>
+</tr>
+</table>
 <input type="submit" value="Send">
 
 </form>
+
 
 
