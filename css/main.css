@@ -101,6 +101,7 @@ html body {
 
 /*>>>>>>>>>>>>>>>>>>>>>>detail page<<<<<<<<<<<<<<<<<<<<<*/
 #detail-numbers-left{
+    position:fixed;
     font-style: italic;
     color: white;
     background-color: red;
@@ -109,6 +110,7 @@ html body {
     margin: 0;
 }
 #detail-numbers-right{
+    position: fixed;
     font-style: italic;
     color: white;
     background-color: red;
