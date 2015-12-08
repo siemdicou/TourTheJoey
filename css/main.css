@@ -100,37 +100,79 @@ html body {
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>detail page<<<<<<<<<<<<<<<<<<<<<*/
+#numbers-right-left{
+    background-color: #ffff00;
+
+}
 #detail-numbers-left{
-    position:fixed;
+
+
     font-style: italic;
     color: white;
     background-color: red;
-    float: left;
+
     padding: 5px;
-    margin: 0;
+
 }
 #detail-numbers-right{
-    position: fixed;
+
     font-style: italic;
     color: white;
     background-color: red;
-    float: right;
+
     padding: 5px;
-    margin: 0;
+
 }
 #liedjeswrap {
     display:inline;
+    text-align: center;
 }
 .numbers{
+
     color:#ffffff;
-    background-color: #ff0000;
+    background: repeating-radial-gradient(red, yellow 10%, green 15%);
     padding: 10px;
+
 
 }
 #songs{
-    border-bottom: dashed;
+
+    text-align: center;
 
 }
+#form-detailpagina h1{
+    border-bottom: dashed;
+}
+#form-detailpagina p{
+    font-weight: bold;
+
+}
+#form-detailpagina td{
+    font-weight: bold;
+
+}
+
+textarea{
+    width: 700px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+input[type=submit] {
+    float: right;
+    padding:5px 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#41564f+49,41564f+49,41564f+49,000000+55 */
+    
+    background: linear-gradient(to bottom,  #41564f 49%,#41564f 49%,#41564f 49%,#000000 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41564f', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    color: #ffffff;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+
+
 footer{
     margin-top: 10px;
     background: linear-gradient(grey 20% , #59575B 80%);
@@ -252,12 +294,7 @@ footer{
     background-color: black;
     /*color: red;*/
 }
-textarea{
-    width: 200px;
-    height: 200px;
-    margin: 0;
-    padding: 0;
-}
+
 #home_text{
      
     /*height: 24px;*/

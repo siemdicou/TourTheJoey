@@ -1,4 +1,5 @@
 <?php
+
 		// go back button
 		$previous_id=$_GET['id']-1;
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$previous_id."'");
@@ -6,14 +7,16 @@
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
                     echo "<div id='detail-numbers-right'>";
 			    	echo $songs['numbers'];
-                    echo "</div>";
+
 			    	echo " ";
 			    	// utf8_encode($songs['song_title']);
+
 			    	echo utf8_encode($songs['song_title']);
-			    	echo "  ";
+                    echo "</div>";
+
 			    	// echo $songs['song_title'];
 			    	// echo $new_id;	
-			    	echo "<br>";
+
 			    	echo "</a>";
 			    	echo "<br>";
 
@@ -28,13 +31,16 @@
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 			        echo "<div id='detail-numbers-left'>";
                     echo $songs['numbers'];
-                    echo "</div>";
-			    	echo " ";
+
+
+
 			    	echo utf8_encode($songs['song_title']);
-			    	echo "<br>";
+                    echo "</div>";
+
 			    	echo "</a>";
 			    	echo "<br>";
 	   	}
+
 	   	//content detail pagina uitlezen db
 	   	$current_id=$next_id-1;
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$current_id."'");
@@ -44,6 +50,7 @@
 	    	echo "<div id='liedjeswrap'>";
 	        echo "<div class='numbers'>";
 	        echo "<p>";
+
 	    	echo $songs['numbers'];
 	        echo "</div>";
 	        echo "<div id='songs'>";
@@ -77,10 +84,11 @@
 
 
 <!-- reactie form -->
+<div id="form-detailpagina">
 <h1>Reageer op dit bericht</h1>
 
 <form method="POST">
-<p>naam</p>
+<p>Naam</p>
 <input type="text">
 
 <p>email (wordt niet getoond)</p>
@@ -107,9 +115,10 @@
 </td>
 </tr>
 </table>
-<input type="submit" value="Send">
+<input type="submit" value="Verstuur">
 
 </form>
+</div>
 
 
 
