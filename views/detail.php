@@ -49,7 +49,7 @@
 	        echo "</b>";
 	        echo "</div>";
 	        echo "</p>";
-	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'></iframe>";
+	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='500px'></iframe>";
 	  		echo "<br>";
 	  		echo "<br>";
 	  		echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
