@@ -1,4 +1,5 @@
 <?php
+		// go back button
 		$previous_id=$_GET['id']-1;
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
@@ -19,7 +20,8 @@
 
 			 
 	   	}
-    
+
+    	// go next button
         $next_id=$previous_id+2;
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
@@ -33,7 +35,7 @@
 			    	echo "</a>";
 			    	echo "<br>";
 	   	}
-
+	   	//content detail pagina uitlezen db
 	   	$current_id=$next_id-1;
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$current_id."'");
 	    $songs=$result->fetch_assoc();
@@ -53,7 +55,7 @@
 	        echo "</b>";
 	        echo "</div>";
 	        echo "</p>";
-	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='500px'></iframe>";
+	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='400px'></iframe>";
 	  		echo "<br>";
 	  		echo "<br>";
 	  		echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -74,7 +76,7 @@
      ?>
 
 
-
+<!-- reactie form -->
 <h1>Reageer op dit bericht</h1>
 
 <form method="POST">
@@ -108,6 +110,8 @@
 <input type="submit" value="Send">
 
 </form>
+
+
 
 
 

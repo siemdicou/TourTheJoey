@@ -256,3 +256,16 @@ textarea{
     margin: 0;
     padding: 0;
 }
+#home_text{
+     
+    /*height: 24px;*/
+    padding: 1%;    
+    /*color: blue;*/
+}
+#home_text img{
+     background-color: lightblue;
+    height: 16px;  
+    width: 18px; 
+    padding: 1%;    
+    /*color: blue;*/
+}
