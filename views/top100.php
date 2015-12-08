@@ -9,7 +9,7 @@
             echo "<div class='numbers'>";
             echo "<p>";
             echo $songs['numbers'];
-            echo $songs['song_title'];
+            echo utf8_encode($songs['song_title']);
             echo "</div>";
             echo "<div id='songs'>";
             echo "<b>";

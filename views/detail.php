@@ -5,8 +5,10 @@
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
 			    	echo $songs['numbers'];
 			    	echo " ";
-			    	utf8_encode($songs['song_title']);
-			    	echo $songs['song_title'];
+			    	// utf8_encode($songs['song_title']);
+			    	echo utf8_encode($songs['song_title']);
+			    	echo "  ";
+			    	// echo $songs['song_title'];
 			    	// echo $new_id;	
 			    	echo "<br>";
 			    	echo "</a>";
@@ -27,16 +29,15 @@
 	        echo "</div>";
 	        echo "<div id='songs'>";
 	        echo "<b>";
-	  		echo $songs['song_title'];
+	  		echo utf8_encode ($songs['song_title']);
 	  		echo "<br>";
-	  		echo $songs['artist'];
+	  		echo utf8_encode ($songs['artist']);
 	  		echo " ";
 	        echo "</b>";
 	        echo "</div>";
 	        echo "</p>";
 	  		echo "</div>";
 	  		echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'></iframe>";
-	  		echo $songs['detail'];
 	  		echo "<br>";
 
 			
@@ -48,11 +49,10 @@
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 			    	echo $songs['numbers'];
 			    	echo " ";
-			    	echo $songs['song_title'];
+			    	echo utf8_encode($songs['song_title']);
 			    	echo "<br>";
 			    	echo "</a>";
 			    	echo "<br>";
-			 
 	   	}
 
      ?>
