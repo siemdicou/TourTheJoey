@@ -86,7 +86,7 @@ html body {
 
 }
 
-#padgination {
+#pagination {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 84%;
@@ -301,10 +301,11 @@ footer{
     padding: 1%;    
     /*color: blue;*/
 }
-#home_text img{
+
+#icon img{
      background-color: lightblue;
+       width: 18px;
     height: 16px;  
-    width: 18px; 
     padding: 1%;    
     /*color: blue;*/
 }

@@ -1,5 +1,5 @@
 
-<table id="padgination">
+<table id="pagination">
 <tr>
 <td>
 	juli 

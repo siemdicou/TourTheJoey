@@ -14,14 +14,22 @@
 
         $page = (empty($_GET['page'])) ? '' : $_GET['page'];
         $id = (empty($_GET['id'])) ? '' : $_GET['id'];
+         // $id = (empty($_GET['id'])) ? '' : $_GET['id'];
+        
+        // $current_id = (empty($_GET['current_id'])) ? '' : $_GET['current_id'];
         switch($page){
             case 'top':
                 include'views/top100.php';
          	break;
+
          	case 'detail':
                 include'views/detail.php';
          	break;
 
+         	case 'insert_comment':
+         		require 'logic/insertcomment.php';
+         		header('location:index.php?page=detail&id='.$id.'');
+         		break;	
          	default:
          		include 'views/home.php';
          	break;	

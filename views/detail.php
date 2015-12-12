@@ -62,7 +62,7 @@
 	        echo "</b>";
 	        echo "</div>";
 	        echo "</p>";
-	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='400px'></iframe>";
+	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='400px' allowfullscreen></iframe>";
 	  		echo "<br>";
 	  		echo "<br>";
 	  		echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -78,47 +78,40 @@
 			
 	    }
  
+// <!-- reactie form -->
+echo '<div id="form-detailpagina">';
+echo "<h1>Reageer op dit bericht</h1>";
+echo '<form method="POST" method="POST" action="?page=insert_comment&id='.$current_id.'">';
+echo ' <p>Naam</p>';
+echo '<input type="text" name="username" required>';
+echo '<p>email (wordt niet getoond)</p>';
+echo '<input type="email" name="email" required>';
+echo '<p>website</p>';
+echo '<input type="text" name="website">';
+echo '<p>reactie</p>';
+echo'<textarea name="reactie" required></textarea>';
+echo'<br>';
+echo'<table>';
+echo'<tr>';
+echo'<td>';
+echo'<input type="checkbox">';
+echo'</td>';
+echo'<td>Gegevens onthouden</td>';
+echo'</tr>';
+echo'<tr>';
+echo'<td>';
+echo'<input type="checkbox">';
+echo'</td>';
+echo'<td>Mail bij nieuwe reactie ';
+echo'</td>';
+echo'</tr>';
+echo'</table>';
+echo'<input type="submit" value="Verstuur">';
 
+echo'</form>';
+echo'</div>';
+?>
 
-     ?>
-
-
-<!-- reactie form -->
-<div id="form-detailpagina">
-<h1>Reageer op dit bericht</h1>
-
-<form method="POST">
-<p>Naam</p>
-<input type="text">
-
-<p>email (wordt niet getoond)</p>
-<input type="email">
-<p>website</p>
-<input type="text" >
-
-<p>reactie</p>
-<!-- <input type="text" size="50" cols="30" maxlength="50"> -->
-<textarea value="vul "></textarea>
-<br>
-<table>
-<tr>
-<td>
-<input type="checkbox">
-</td>
-<td>Gegevens onthouden</td>
-</tr>
-<tr>
-<td>
-<input type="checkbox">	
-</td>
-<td>Mail bij nieuwe reactie 
-</td>
-</tr>
-</table>
-<input type="submit" value="Verstuur">
-
-</form>
-</div>
 
 
 
