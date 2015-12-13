@@ -6,14 +6,9 @@
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
                     echo "<div id='detail-numbers-left'>";
-<<<<<<< HEAD
-			    	echo $songs['numbers'];
-
-=======
 	                    echo "<div id='numbers'> ";
 				    		echo $songs['numbers'];
 				    	echo "</div>";
->>>>>>> origin/master
 			    	echo " ";
 			    	// utf8_encode($songs['song_title']);
 
@@ -35,11 +30,6 @@
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
-<<<<<<< HEAD
-			        echo "<div id='detail-numbers-right'>";
-                    echo $songs['numbers'];
-=======
->>>>>>> origin/master
 
 
 					echo "<div id='detail-numbers-right'>";
@@ -96,7 +86,7 @@
 // <!-- reactie form -->
 echo '<div id="form-detailpagina">';
 echo "<h1>Reageer op dit bericht</h1>";
-echo '<form method="POST" action="?page=insert_comment&id='.$current_id.'">';
+echo '<form method="POST" method="POST" action="?page=insert_comment&id='.$current_id.'">';
 echo ' <p>Naam</p>';
 echo '<input type="text" name="username" required>';
 echo '<p>email (wordt niet getoond)</p>';
