@@ -26,6 +26,10 @@
                 include'views/detail.php';
          	break;
 
+            case 'prijsvraag':
+                include'views/prijsvraag.php';
+            break;
+
          	case 'insert_comment':
          		require 'logic/insertcomment.php';
          		header('location:index.php?page=detail&id='.$id.'');
