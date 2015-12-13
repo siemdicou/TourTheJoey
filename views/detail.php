@@ -5,18 +5,19 @@
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$previous_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
-                    echo "<div id='detail-numbers-right'>";
-			    	echo $songs['numbers'];
-
+                    echo "<div id='detail-numbers-left'>";
+	                    echo "<div id='numbers'> ";
+				    		echo $songs['numbers'];
+				    	echo "</div>";
 			    	echo " ";
 			    	// utf8_encode($songs['song_title']);
 
 			    	echo utf8_encode($songs['song_title']);
-                    echo "</div>";
+                    
 
 			    	// echo $songs['song_title'];
 			    	// echo $new_id;	
-
+			    	echo "</div>";
 			    	echo "</a>";
 			    	echo "<br>";
 
@@ -29,17 +30,21 @@
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
 	   	while ($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
-			        echo "<div id='detail-numbers-left'>";
-                    echo $songs['numbers'];
 
 
-
-			    	echo utf8_encode($songs['song_title']);
+					echo "<div id='detail-numbers-right'>";
+			    		echo utf8_encode($songs['song_title']);
+			    	
+	                    echo "<div id='numbers'> ";
+				    		echo $songs['numbers'];
+				    	echo "</div>";
+			    	// echo " ";	
                     echo "</div>";
 
 			    	echo "</a>";
 			    	echo "<br>";
 	   	}
+
 
 	   	//content detail pagina uitlezen db
 	   	$current_id=$next_id-1;

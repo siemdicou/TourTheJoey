@@ -100,29 +100,40 @@ html body {
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>detail page<<<<<<<<<<<<<<<<<<<<<*/
-#numbers-right-left{
-    background-color: #ffff00;
-
-}
-#detail-numbers-left{
-
-
-    font-style: italic;
-    color: white;
-    background-color: red;
-
-    padding: 5px;
-
-}
 #detail-numbers-right{
 
+    /*width: 40%;*/
+    font-style: italic;
+    /*color: white;*/
+    /*background-color: red;*/
+    float: right;
+    padding: 5px;
+    display: inline-block;
+    margin-top: -2%;
+}
+
+#detail-numbers-left{
+    /*width: 40%;*/
+    font-style: italic;
+    float: left;
+    /*color: white;*/
+    /*background-color: red;*/
+
+    padding: 5px;
+    display: inline-block;
+
+
+
+}
+#numbers{
+    /*width: 100%;*/
     font-style: italic;
     color: white;
     background-color: red;
-
-    padding: 5px;
-
+    padding: 7px;
+    display: inline-block;
 }
+
 #liedjeswrap {
     display:inline;
     text-align: center;
@@ -135,6 +146,7 @@ html body {
 
 
 }
+
 #songs{
 
     text-align: center;
