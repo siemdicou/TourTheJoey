@@ -52,7 +52,7 @@
 	    $songs=$result->fetch_assoc();
 	    {
 	    	// echo $new_id2;
-	    	echo "<div id='liedjeswrap'>";
+	    	echo "<div id='detail-liedjeswrap'>";
 	        echo "<div class='detail-numbers'>";
 	        echo "<p>";
 	    	echo $songs['numbers'];

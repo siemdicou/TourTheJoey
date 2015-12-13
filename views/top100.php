@@ -12,12 +12,14 @@ echo "</div>";
 
             echo "<div id='liedjeswrap'>";
             echo "<a href='index.php?page=detail&id=".$songs['id']."'".$songs['song_title'].">";
+            echo "<div class='numbers-song'>";
             echo "<div class='numbers'>";
             echo $songs['numbers'];
             echo "</div>";
 
             echo "<div class='songs'>";
             echo utf8_encode($songs['song_title']);
+            echo "</div>";
             echo "</div>";
             echo "</div>";
             echo "</a>";
