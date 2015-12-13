@@ -53,12 +53,11 @@
 	    {
 	    	// echo $new_id2;
 	    	echo "<div id='liedjeswrap'>";
-	        echo "<div class='numbers'>";
+	        echo "<div class='detail-numbers'>";
 	        echo "<p>";
-
 	    	echo $songs['numbers'];
 	        echo "</div>";
-	        echo "<div id='songs'>";
+	        echo "<div id='detail-songs'>";
 	        echo "<b>";
 	  		echo utf8_encode ($songs['song_title']);
 	  		echo "<br>";
