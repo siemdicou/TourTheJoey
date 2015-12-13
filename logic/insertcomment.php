@@ -1,8 +1,8 @@
 <!-- comments insert -->
 <?php 
 $username = $_POST['username'];
-$website = $_POST['website'];
 $email = $_POST['email'];
+$website = $_POST['website'];
 $reactie = $_POST['reactie'];
 $id = $_POST['$current_id'];
 

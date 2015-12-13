@@ -41,9 +41,8 @@ html body {
 
 #logo{
     width: 20%;
-    padding-bottom:25px;
     float: left;
-    
+
 
     /*background-color:#FFFF33;*/
 
@@ -63,6 +62,7 @@ html body {
     padding-top:60px;
     float: right;
     margin-bottom: -20px;
+
 }
 
 #live-music{
@@ -100,31 +100,27 @@ html body {
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>detail page<<<<<<<<<<<<<<<<<<<<<*/
-#numbers-right-left{
-    background-color: #ffff00;
+#detail-numbers-right{
+
+    float: left;
+    font-style: italic;
+    color: white;
+    background-color: red;
+    width:20%;
+    padding: 5px;
 
 }
 #detail-numbers-left{
 
-
+    float:right;
     font-style: italic;
     color: white;
     background-color: red;
-
-    padding: 5px;
-
-}
-#detail-numbers-right{
-
-    font-style: italic;
-    color: white;
-    background-color: red;
-
+    width:20%;
     padding: 5px;
 
 }
 #liedjeswrap {
-    display:inline;
     text-align: center;
 }
 .numbers{
@@ -170,8 +166,7 @@ input[type=submit] {
     cursor:pointer;
     border-radius: 5px;
 }
-
-
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>>>>>*/
 
 footer{
     margin-top: 10px;
