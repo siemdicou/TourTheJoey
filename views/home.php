@@ -36,7 +36,7 @@
                     echo "</div>";
 
                     echo "<div id='facebook'>";
-                        echo "<img src='img/facebook.png' id=>";
+                        echo "<img src='img/facebook.png' >";
                     echo "</div>";
         
                     echo "<div id='twitter'>";
