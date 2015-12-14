@@ -1,4 +1,4 @@
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de tekst informatie en database gelaade content<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+<!--/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de tekst informatie en database gelaade content<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/-->
 
 <img src="img/prijsvraag.png" class="prijsvraag_img" >
 <?php

@@ -1,4 +1,4 @@
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pagination code wordt hier verwerkt<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+<!--/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>pagination code wordt hier verwerkt<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/-->
 
 <table id="pagination">
 <tr>

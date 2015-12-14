@@ -1,4 +1,4 @@
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de sidebar waar de plaatjes in worden weergeven<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+<!--//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de sidebar waar de plaatjes in worden weergeven<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/-->
 
 <a href="?page=top"><img id="imgTop" src="img/01_3.png"></a>
 <a href="?page=prijsvraag&id=4"><img src="img/02_1.png"></a>

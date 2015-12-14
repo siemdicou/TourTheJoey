@@ -57,7 +57,7 @@
 	    {
 	    	// echo $new_id2;
 
-            /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hier worden de liedjes gestyled met divs<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+//            /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hier worden de liedjes gestyled met divs<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 	    	echo "<div id='detail-liedjeswrap'>";
 	        echo "<div class='detail-numbers'>";
                 echo $songs['numbers'];
