@@ -1,6 +1,14 @@
+<div id="page_header_detail">
+    <div class="page_title">
+        In de Radio 1 tour top 100
+    </div>
+    <div class="back_today">
+        <img src="img/indicator.png">
+        vandaag
+    </div>
+</div>
+
 <?php
-
-
 echo "<div id='logo-top100'>";
 echo "<img src='img/01_2.png'>";
 echo "</div>";

@@ -1,3 +1,12 @@
+<div id="page_header_detail">
+    <div class="page_title">
+        In de Radio 1 tour top 100
+    </div>
+    <div class="back_today">
+        <img src="img/indicator.png">
+        vandaag
+    </div>
+</div>
 <?php
 	$result = $mysqli->query("SELECT * FROM songs ORDER BY numbers");
     while ($songs=$result->fetch_assoc()){
