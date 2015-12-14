@@ -13,6 +13,7 @@
 	<?php
 
         $page = (empty($_GET['page'])) ? '' : $_GET['page'];
+        $current_day = (empty($_GET['current_day'])) ? '' : $_GET['current_day'];
         $id = (empty($_GET['id'])) ? '' : $_GET['id'];
          // $id = (empty($_GET['id'])) ? '' : $_GET['id'];
         
@@ -23,11 +24,17 @@
          	break;
 
          	case 'detail':
+
                 include'views/detail.php';
          	break;
 
             case 'prijsvraag':
+                require 'logic/prijsvraag-model';
                 include'views/prijsvraag.php';
+            break;
+
+            case 'daily':
+                include'views/daily.php';
             break;
 
          	case 'insert_comment':

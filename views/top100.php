@@ -24,7 +24,6 @@ echo "</div>";
             echo "<div class='numbers'>";
             echo $songs['numbers'];
             echo "</div>";
-
             echo "<div class='songs'>";
             echo utf8_encode($songs['song_title']);
             echo "</div>";
