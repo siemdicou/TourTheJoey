@@ -7,7 +7,7 @@
 <?php 
 for ($i=2; $i < 25; $i++) { 
 		echo "<td>";
-		echo $i;
+		echo "<a href='?page=daily_songs&current_day=".$i."'>".$i."</a>";
 		echo "</td>";
 	}
 	
