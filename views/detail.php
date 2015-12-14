@@ -9,7 +9,7 @@
 </div>
 <?php
 		// go back button
-             while($songs) {
+             while($songs=$result->fetch_assoc();) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
                     echo "<div id='detail-numbers-left'>";
 	                    echo "<div id='numbers'> ";
