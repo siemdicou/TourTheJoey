@@ -3,30 +3,16 @@
 
 }
 #speech_bubble{
-
+float: left;
+display: inline-block;
+}
+#facebook{
+float:right;
+}
+#twitter{
+float: right;
+}
+#email{
+float: right;
 
 }
-#bubbles{
-    background-color: #808080;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-echo "<img src='img/facebook.png' id=>";
-
-echo "<img src='img/twitter1.png' >";
-
-echo "<div id='bubbles'>";
-echo "<img src='img/email5.png' >";
-echo "</div>";
