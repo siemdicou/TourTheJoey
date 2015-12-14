@@ -1,5 +1,13 @@
+<div id="page_header_detail">
+	<div class="page_title">
+		In de Radio 1 tour top 100
+	</div>
+	<div class="back_today">
+		<img src="img/indicator.png">
+		vandaag
+	</div>
+</div>
 <?php
-
 		// go back button
 		$previous_id=$_GET['id']-1;
 	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$previous_id."'");
@@ -54,7 +62,6 @@
 	    	// echo $new_id2;
 	    	echo "<div id='detail-liedjeswrap'>";
 	        echo "<div class='detail-numbers'>";
-	        echo "<p>";
 	    	echo $songs['numbers'];
 	        echo "</div>";
 	        echo "<div id='detail-songs'>";
@@ -65,7 +72,7 @@
 	  		echo " ";
 	        echo "</b>";
 	        echo "</div>";
-	        echo "</p>";
+
 	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='400px' allowfullscreen></iframe>";
 	  		echo "<br>";
 	  		echo "<br>";

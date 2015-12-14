@@ -18,6 +18,24 @@ html body {
     padding: 2%;
 }
 
+.page_title{
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+}
+
+.back_today{
+    display: inline-block;
+    float: right;
+    color: #03A9F4;
+
+
+}
+.back_today img{
+    height: 100%;
+    margin-bottom:-5px; 
+}
+
 #header{
     margin: 0% 8%;
     height: auto;
@@ -126,6 +144,15 @@ html body {
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>detail page<<<<<<<<<<<<<<<<<<<<<*/
+#page_header_detail{
+    width: 100%;
+    margin-bottom:2%;
+    border-bottom: dashed 1px;
+    padding-bottom: 2%;
+    height: 20px;
+
+}
+
 #detail-numbers-right{
 
     /*width: 40%;*/
@@ -170,9 +197,9 @@ html body {
     height: 100px;
 }
 #detail-liedjeswrap {
-    font-size: 35px;
+    font-size: 25px;    
     display: inline;
-    background-color: blue;
+    /*background-color: blue;*/
     text-decoration: none;
 }
 #detail-liedjeswrap a{
@@ -181,11 +208,15 @@ html body {
  }
 
 .detail-numbers{
-    width: 10%;
-    margin-top:-50px;
-    text-align: center;
+    /*width: 10%;*/
+    padding: 2px;
+    margin-left:45%;
+    margin-right:45%;  
+    margin-bottom: 2%;  
+    margin-top:-30px;
+    text-align: center; 
     background-color: #ff0000;
-
+    color: white;
 }
 
 #detail-songs{
