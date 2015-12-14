@@ -19,7 +19,7 @@
                     echo "<br>";
 
                     echo " ";
-    //                 echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='20%' height='100px'></iframe>";
+//                echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='20%' height='100px'></iframe>";
                     echo "<br>";
 
                     echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -29,24 +29,23 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
-                    echo "<br>";
                 echo "<div id='icons'>";
 
-                         echo "<div id='speech_bubble'>";
-                            echo "<img src='img/speech_bubble.png'>";
-                         echo "</div>";
+                    echo "<div id='speech_bubble'>";
+                        echo "<img src='img/speech_bubble.png'>";
+                    echo "</div>";
 
-                         echo "<div id='speech_bubble'>";
-                          echo "<img src='img/facebook.png' id=>";
-                        echo "</div>";
+                    echo "<div id='facebook'>";
+                        echo "<img src='img/facebook.png' id=>";
+                    echo "</div>";
         
-                            echo "<div id='speech_bubble'>";
-                         echo "<img src='img/twitter1.png' >";
-                            echo "</div>";
+                    echo "<div id='twitter'>";
+                        echo "<img src='img/twitter1.png' >";
+                    echo "</div>";
 
-                         echo "<div id='bubbles'>";
-                            echo "<img src='img/email5.png' >";
-                         echo "</div>";
+                    echo "<div id='email'>";
+                        echo "<img src='img/email5.png' >";
+                    echo "</div>";
 
                     echo "<br>";
 
