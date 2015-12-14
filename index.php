@@ -24,12 +24,12 @@
          	break;
 
          	case 'detail':
-
+                require 'logic/detail-model.php';
                 include'views/detail.php';
          	break;
 
             case 'prijsvraag':
-                require 'logic/prijsvraag-model';
+                require 'logic/prijsvraag-model.php';
                 include'views/prijsvraag.php';
             break;
 
