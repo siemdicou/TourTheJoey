@@ -8,7 +8,7 @@
     </div>
 </div>
 <?php
-	$result = $mysqli->query("SELECT * FROM songs ORDER BY numbers");
+	$result = $mysqli->query("SELECT * FROM songs ORDER BY id");
     while ($songs=$result->fetch_assoc()){
             echo "<div id='home_text'>";
                 echo $songs['numbers'];
@@ -30,9 +30,9 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
                 
                 echo "<br>";
-                echo "<div id='icon'>";
-                     echo "<img src='img/speech_bubble.png'>";
-                echo "</div>";
+                // echo "<div id='icon'>";
+                //      echo "<img src='img/speech_bubble.png'>";
+                // echo "</div>";
                 // echo "<img src='img/facebook.png' id=>";
                 // echo "<img src='img/speech_bubble.png' >";
                 // echo "<img src='img/speech_bubble.png' >";

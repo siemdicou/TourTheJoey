@@ -1,6 +1,6 @@
 <?php 
-    
-    $result = $mysqli->query("SELECT * FROM songs ORDER BY numbers WHERE current_day");
+
+    $result = $mysqli->query("SELECT * FROM songs ORDER BY id");
     while ($songs=$result->fetch_assoc()){
     // {
     	// for ($i=1; $i <= 5 ; $i++) {
