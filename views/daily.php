@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de body en layout voor de liedjes top 100 komen hier samen<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 <?php
     
     $result = $mysqli->query("SELECT * FROM songs ORDER BY numbers WHERE current_day");
+=======
+<?php 
+
+    $result = $mysqli->query("SELECT * FROM songs ORDER BY id");
+>>>>>>> origin/master
     while ($songs=$result->fetch_assoc()){
     // {
     	// for ($i=1; $i <= 5 ; $i++) {
