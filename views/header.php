@@ -1,3 +1,4 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>alle invidueele deeltjes die in de header zitten worden hier geladen en gestyled<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 <div id="header">	
 	<div id="logo"><img src="img/logo.png"></div>

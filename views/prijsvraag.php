@@ -1,3 +1,5 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de tekst informatie en database gelaade content<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
 <img src="img/prijsvraag.png" class="prijsvraag_img" >
 <?php
 	echo $ask['numbers'];
@@ -28,7 +30,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div id="vraag">
     VRAAG
 </div>
-Wat was de de debuutnaam van Julien Clerc?
+Wat was de debuut naam van Julien Clerc?
 </div>
 <br>
 <br>

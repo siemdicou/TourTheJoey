@@ -1,3 +1,4 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hier wordt getaileerd informatie weergegeven over het nummer dat is geselecteerd<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 <div id="page_header_detail">
 	<div class="page_title">
 		In de Radio 1 tour top 100
@@ -51,12 +52,12 @@
 			    	echo "<br>";
 	   	}
 
-
-	   	//content detail pagina uitlezen db
-
+                    //current number
 	    $songs=$result3->fetch_assoc();
 	    {
 	    	// echo $new_id2;
+
+            /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hier worden de liedjes gestyled met divs<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 	    	echo "<div id='detail-liedjeswrap'>";
 	        echo "<div class='detail-numbers'>";
                 echo $songs['numbers'];
@@ -86,7 +87,7 @@
 			
 	    }
  
-// <!-- reactie form -->
+                    // <!-- reactie form -->
 echo '<div id="form-detailpagina">';
 echo "<h1>Reageer op dit bericht</h1>";
 echo '<form method="POST" method="POST" action="?page=insert_comment&id='.$current_id.'">';
