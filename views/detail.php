@@ -1,4 +1,4 @@
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hier wordt getaileerd informatie weergegeven over het nummer dat is geselecteerd<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+<!-- /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hier wordt getaileerd informatie weergegeven over het nummer dat is geselecteerd<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */ -->
 <div id="page_header_detail">
 	<div class="page_title">
 		In de Radio 1 tour top 100
