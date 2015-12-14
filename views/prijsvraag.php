@@ -1,13 +1,10 @@
 <img src="img/prijsvraag.png" class="prijsvraag_img" >
-<?php 
-	$id=$_GET['id'];
-	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$id."'");
-	$ask=$result->fetch_assoc();
+<?php
 	echo $ask['numbers'];
 	echo "  ";
-	echo $ask['artist'];
+	echo utf8_encode($ask['artist']);
 	echo ": ";
-	echo $ask['song_title'];
+	echo utf8_encode($ask['song_title']);
 	echo "<br>";
 
  ?>
@@ -26,41 +23,42 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<h1><div id="vraag">Vraag</div> Wat was de de debuutnaam van Julien Clerc?</h1>
 
-<h1 id="meedoen">Doe mee aan deze prijsvraag</h1>
+<div id="vraagtext">
+<div id="vraag">
+    VRAAG
+</div>
+Wat was de de debuutnaam van Julien Clerc?
+</div>
+<br>
+<br>
+<br>
+<div id="meedoen">
+    Doe mee aan deze prijsvraag
+</div>
+
+<div id="form-detailpagina">
 
 <form>
-	<b>naam:</b> <br>
+	<b>Naam:</b>
+    <br>
+    <br>
+	<input type="text">
+    <br>
+    <br>
+	<b>Email:</b><div id="greycolor">(wordt niet verspreid)</div>
+    <br>
+    <br>
+	<input type="text">
+    <br>
+    <br>
+	<b>Andwoordt:</b> <br>
 	<input type="text">
 	<br>
-
-	<b>email:</b>(wordt niet verspreid)<br>
-	<input type="text">
-<br>	
-	<b>andwoordt:</b> <br>
-	<input type="text">
-	<br>
+    <br>
 	<input type="checkbox">
- 	<b>inscrijven voor nieuwsbrief</b>	
+ 	<b>Inscrijven voor nieuwsbrief</b>
 
 	<input type="submit" value="verstuur">
 </form>
-
-
- <style type="text/css">
- .prijsvraag_img
- {
- 	float: left;
- 	width: 30%;
- 	margin-right: 2%;
- 	}
- 	#vraag{
- 		color: red;
- 		display: inline-block;
- 	}
- 	#meedoen{
- 		border-bottom: dotted 2px;
- 		color:red;
- 	}
- 	</style>
+</div>
