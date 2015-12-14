@@ -21,7 +21,7 @@ echo "</div>";
             echo "<div id='liedjeswrap'>";
             echo "<a href='index.php?page=detail&id=".$songs['id']."'".$songs['song_title'].">";
             echo "<div class='numbers-song'>";
-            echo "<div class='numbers'>";
+            echo "<div id='numbers'>";
             echo $songs['numbers'];
             echo "</div>";
             echo "<div class='songs'>";

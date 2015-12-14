@@ -9,7 +9,7 @@
 </div>
 <?php
 		// go back button
-             while($songs=$result->fetch_assoc();) {
+             while($songs=$result->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$previous_id." '>";
                     echo "<div id='detail-numbers-left'>";
 	                    echo "<div id='numbers'> ";
@@ -32,18 +32,18 @@
 
 
     	// go next button
-        $next_id=$previous_id+2;
-	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
-	   	while ($songs=$result->fetch_assoc()) {
+;
+	   	while ($songs=$result2->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 
 
 					echo "<div id='detail-numbers-right'>";
-			    		echo utf8_encode($songs['song_title']);
+
 			    	
 	                    echo "<div id='numbers'> ";
 				    		echo $songs['numbers'];
 				    	echo "</div>";
+            echo utf8_encode($songs['song_title']);
 			    	// echo " ";	
                     echo "</div>";
 
@@ -53,35 +53,34 @@
 
 
 	   	//content detail pagina uitlezen db
-	   	$current_id=$next_id-1;
-	   	$result = $mysqli->query("SELECT * FROM songs WHERE id='".$current_id."'");
-	    $songs=$result->fetch_assoc();
+
+	    $songs=$result3->fetch_assoc();
 	    {
 	    	// echo $new_id2;
 	    	echo "<div id='detail-liedjeswrap'>";
 	        echo "<div class='detail-numbers'>";
-	    	echo $songs['numbers'];
-	        echo "</div>";
-	        echo "<div id='detail-songs'>";
-	        echo "<b>";
-	  		echo utf8_encode ($songs['song_title']);
-	  		echo "<br>";
-	  		echo utf8_encode ($songs['artist']);
-	  		echo " ";
-	        echo "</b>";
-	        echo "</div>";
+                echo $songs['numbers'];
+                echo "</div>";
+                    echo "<div id='detail-songs'>";
+                        echo "<b>";
+                        echo utf8_encode ($songs['song_title']);
+                        echo "<br>";
+                        echo utf8_encode ($songs['artist']);
+                        echo " ";
+                        echo "</b>";
+                    echo "</div>";
 
-	        echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='400px' allowfullscreen></iframe>";
-	  		echo "<br>";
-	  		echo "<br>";
-	  		echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	  		
-	  		echo "<br>";
+                echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='100%' height='400px' allowfullscreen></iframe>";
+                echo "<br>";
+                echo "<br>";
+                echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+                echo "<br>";
 	  		echo "</div>";
 
 			

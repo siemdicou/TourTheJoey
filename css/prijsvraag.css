@@ -1,0 +1,67 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>prijsvraag<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+#prijsvraag{
+    margin-top:-25%;
+    padding-bottom: 20%;
+    text-align: center;
+
+    /*background-image: url(../img/01.png);*/
+
+}
+#prijsvraag p{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#prijsvraag h2{
+    padding: 0;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+    background-color: black;
+    /*color: red;*/
+}
+.prijsvraag_img
+{
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+#vraag{
+    letter-spacing: -3px;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    display: inline-block;
+}
+#vraagtext{
+    font-size: 30px;
+
+}
+#meedoen{
+    font-size: 25px;
+    border-bottom: dotted 2px;
+    color:red;
+}
+#greycolor{
+    color: lightgrey;
+    display: inline-block;
+}
+
+#home_text{
+
+    /*height: 24px;*/
+    padding: 1%;
+    /*color: blue;*/
+}
+
+#icon img {
+    background-color: lightblue;
+    width: 18px;
+    height: 16px;
+    padding: 1%;
+}/*color: blue;*/

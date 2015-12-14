@@ -1,0 +1,25 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>top100page<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.songs{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: -30px;
+
+}
+.numbers-song{
+    padding-bottom: 0px;
+    border-bottom: dashed;
+
+}
+#liedjeswrap {
+    padding: 10px;
+    font-size: 20px;
+    display: inline;
+
+    text-decoration: none;
+}
+#liedjeswrap a{
+    text-decoration: none;
+    color: black;
+}
+
