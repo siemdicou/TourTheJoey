@@ -13,7 +13,7 @@ echo "<div id='logo-top100'>";
 echo "<img src='img/01_2.png'>";
 echo "</div>";
 
-	$result = $mysqli->query("SELECT * FROM songs ORDER BY numbers");
+	$result = $mysqli->query("SELECT * FROM songs ORDER BY id");
     while ($songs=$result->fetch_assoc()){
     // {
     	// for ($i=1; $i <= 5 ; $i++) {

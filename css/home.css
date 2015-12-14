@@ -2,3 +2,31 @@
 
 
 }
+#speech_bubble{
+
+
+}
+#bubbles{
+    background-color: #808080;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "<img src='img/facebook.png' id=>";
+
+echo "<img src='img/twitter1.png' >";
+
+echo "<div id='bubbles'>";
+echo "<img src='img/email5.png' >";
+echo "</div>";
