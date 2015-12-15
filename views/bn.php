@@ -1,13 +1,21 @@
+<div id="page_header_detail">
+    <div class="page_title">
+        Tour Top lijsten van BN'ers
+    </div>
+    <div class="back_today">
+        <img src="img/indicator.png">
+        vandaag
+    </div>
+</div>
 <?php 
-	for ($i=0; $i < 10; $i++) {
+	for ($i=0; $i < 5; $i++) {
 
 echo "<div id='home_text'>";
-                    echo '<img src="img/04.png" id="bn_img">';
+            echo '<img src="img/04.png" id="bn_img">';
                     // echo "<br>";
                     echo "<div id='bn_title'>Voornaam en Achternaam</div>";
                     echo "  ";
-                    // echo utf8_encode ($songs['artist']);
-                    // echo "<br>";
+
 
                     echo " ";
                     echo "<br>";
@@ -19,7 +27,7 @@ echo "<div id='home_text'>";
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
-                echo "<div id='icons'>";           
+                echo "<div id='icons_bn'>";           
                     echo "<div id='speech_bubble'>";
                         echo "<img src='img/speech_bubble.png'>";
                     echo "</div>";

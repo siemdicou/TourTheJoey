@@ -1,11 +1,14 @@
 #bn_img {
   display: inline-block;
   float: left;
-  height: 130px;
+  height: 200px;
   margin-bottom: 10px; }
 
 #bn_title {
   font-size: 25px; }
+
+#icons_bn {
+  margin: 2% 0% 2% 0%; }
 
 #page_header_detail {
   width: 100%;
