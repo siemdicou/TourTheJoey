@@ -1,4 +1,4 @@
 <?php
 
-$result = $mysqli->query("SELECT * FROM songs ORDER BY id");
+$result = $mysqli->query("SELECT * FROM songs ORDER BY numbers DESC");
 ?>

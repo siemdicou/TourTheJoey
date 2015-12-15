@@ -330,12 +330,8 @@ html body {
     width: 100%;
     margin-bottom: 5px; }
 
-.currentPagination a {
-  text-decoration: none;
-  color: black; }
-
-.oldPagination {
-  background: linear-gradient(lightgrey 0, white 90%); }
+#oldPagination {
+  background: linear-gradient(lightgrey 0, white 0%); }
 
 #pagination {
   border-top-left-radius: 10px;
@@ -348,7 +344,9 @@ html body {
   font-weight: bold; }
   #pagination a {
     text-decoration: none;
+    border-right: 1px solid;
+    padding-right: 15px;
     color: black;
     font-weight: bold; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.map */

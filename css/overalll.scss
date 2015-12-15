@@ -47,6 +47,20 @@ html body {
     margin-bottom: 5px;
 	}
 }
+
+.currentPagination{
+	a{
+		text-decoration: none;
+		color: $black;
+	}
+}
+
+.oldPagination{
+	background: linear-gradient($color_quill_gray_approx 0, $white 90%);
+	// background-color: grey;
+
+}
+
 #pagination {
 	//Instead of the line below you could use @include border-top-left-radius($radius)
 	border-top-left-radius: 10px;
@@ -60,8 +74,8 @@ html body {
 	font-weight: bold;
 	a {
     text-decoration: none;
-		border-right: 1px solid;
-		padding-right: 15px;
+		// border-right: 1px solid;
+		// padding-right: 15px;
 		color: $black;
 		font-weight: bold;
 	}

@@ -7,9 +7,16 @@
 </td>
 <?php 
 for ($i=2; $i < 25; $i++) { 
-		echo "<td>";
-		echo "<a href='?page=home&current_day=".$i."'>".$i."</a>";
-		echo "</td>";
+		if ($i > date('d')) {
+			echo "<td> ".$i."</td>";
+		}
+		if ($i == date('d')) {
+			echo "<td class='currentPagination'><a href='?page=home&current_day=".$i."'>".$i."</a></td>";
+		}
+		if ($i < date('d')) {
+            echo "<td class='oldPagination'>  <a href='?home&current_day=".$i."'> ".$i."</a></td>";
+        }
+		
 	}
  ?>
 </tr>
