@@ -330,18 +330,26 @@ html body {
     width: 100%;
     margin-bottom: 5px; }
 
-.currentPagination a {
-  text-decoration: none;
-  color: black; }
+.currentPagination {
+  background-color: white;
+  border: solid 2px red;
+  box-shadow: 3px 3px 5px #888888; }
+  .currentPagination a {
+    text-decoration: none;
+    color: black; }
+
+.newPagination {
+  border-right: 1px solid grey; }
 
 .oldPagination {
-  background: linear-gradient(lightgrey 0, white 90%); }
+  background: linear-gradient(#505152 0%, white 90%);
+  border-right: 1px solid grey; }
 
 #pagination {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 84%;
-  height: 50px;
+  height: 40px;
   margin: 0 8%;
   background: linear-gradient(#f9c70e 0, #f1e767 35%, white 70%);
   text-align: center;
