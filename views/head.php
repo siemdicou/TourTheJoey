@@ -6,5 +6,6 @@
 <link rel="stylesheet" type="text/css" href="css/prijsvraag.css">
 <link rel="stylesheet" type="text/css" href="css/detailpagina.css">
 <link rel="stylesheet" type="text/css" href="css/top100.css">
+<link rel="stylesheet" type="text/css" href="css/bn.css">
 <meta charset="UTF-8">
 

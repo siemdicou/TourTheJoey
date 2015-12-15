@@ -29,6 +29,10 @@
                 include'views/detail.php';
          	break;
 
+            case 'bn':
+                include 'views/bn.php';
+                break;
+
             case 'prijsvraag':
                 require 'logic/prijsvraag-model.php';
                 include'views/prijsvraag.php';

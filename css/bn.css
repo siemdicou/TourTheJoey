@@ -1,0 +1,10 @@
+#bn_img{
+	display: inline-block;
+	float: left;
+	height: 130px;
+	margin-bottom: 10px;
+}
+
+#bn_title{
+	font-size: 25px;
+}
