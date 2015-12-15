@@ -8,4 +8,6 @@ $result2 = $mysqli->query("SELECT * FROM songs WHERE id='".$next_id."'");
 
 $current_id=$next_id-1;
 $result3 = $mysqli->query("SELECT * FROM songs WHERE id='".$current_id."'");
+
+$result4 = $mysqli -> query ("SELECT * FROM comments WHERE song_id= '" . $current_id . "'");
 ?>

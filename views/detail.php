@@ -33,7 +33,6 @@
 
 
     	// go next button
-;
 	   	while ($songs=$result2->fetch_assoc()) {
 			    	echo "<a href='index.php?page=detail&id=".$next_id." '>";
 
@@ -119,6 +118,13 @@
 
 	echo'</form>';
 	echo'</div>';
+
+
+while ($songs=$result4->fetch_assoc()) {
+    echo $songs ['username'];
+    echo $songs ['reactie'];
+
+}
 ?>
 
 
