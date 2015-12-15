@@ -19,9 +19,14 @@
         
         // $current_id = (empty($_GET['current_id'])) ? '' : $_GET['current_id'];
         switch($page){
+
             case 'top':
+                echo "<div id='top100wrapper'>";
                 require 'logic/top100-model.php';
                 include'views/top100.php';
+                echo "</div>";
+                echo "<div id='top100footer'>";
+                echo "</div>";
          	break;
 
          	case 'detail':
