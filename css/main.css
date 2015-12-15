@@ -180,6 +180,9 @@ footer {
   background-color: grey;
   padding: 5px; }
 
+#home-number-songname {
+  float: right; }
+
 #speech_bubble {
   float: left;
   display: inline-block;

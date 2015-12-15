@@ -11,15 +11,19 @@
 	
     while ($songs=$result->fetch_assoc()){
             echo "<div id='home_text'>";
+                    echo "<div id='home-number-songname'>";
                     echo $songs['numbers'];
                     echo "<br>";
                     echo utf8_encode ($songs['song_title']);
                     echo "  ";
                     echo utf8_encode ($songs['artist']);
+                    echo"</div>";
                     echo "<br>";
 
                     echo " ";
-                     echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='20%' height='100px'></iframe>";
+                    echo "<div id='home-video'>";
+                    echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='350px' height='250px'></iframe>";
+                    echo"</div>";
                     echo "<br>";
 
                     echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
