@@ -4,10 +4,11 @@
         <img src='img/01_2.png'>
     </div>
 
-    <div class="back_today">
-        <img src="img/indicator.png">
-        vandaag
-    </div>
+    <a href='?home&current_day=16'>
+        <div class="back_today">
+            <img src="img/indicator.png">
+            vandaag
+        </div>
 </div>
 <a href="files/top100.pdf" target="_blank"><div id="pdf">Tour Top 100 als<img src="img/pdf-icon.png"></div></a>
 <?php

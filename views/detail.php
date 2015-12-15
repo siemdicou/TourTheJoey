@@ -3,10 +3,13 @@
 	<div class="page_title">
 		In de Radio 1 tour top 100
 	</div>
-	<div class="back_today">
-		<img src="img/indicator.png">
-		vandaag
-	</div>
+    <a href='?home&current_day=16'>
+        <div class="back_today">
+            <img src="img/indicator.png">
+            vandaag
+        </div>
+    </a>
+
 </div>
 <?php
 		// go back button

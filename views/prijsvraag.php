@@ -1,5 +1,20 @@
 <!--/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>de tekst informatie en database gelaade content<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/-->
 
+<div id="page_header_detail">
+    <div class="page_title">
+        Complete Tour Top 100
+        <img src='img/01_2.png'>
+    </div>
+
+    <a href='?home&current_day=16'>
+        <div class="back_today">
+            <img src="img/indicator.png">
+            vandaag
+        </div>
+        </a>
+</div>
+
+
 <img src="img/prijsvraag.png" class="prijsvraag_img" >
 <?php
 	echo $ask['numbers'];
