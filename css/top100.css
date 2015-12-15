@@ -4,20 +4,21 @@
     text-decoration: none;
     margin-left: 60px;
     margin-top: -30px;
+    font-size: 18px;
 
 }
+
 .numbers-song{
     padding-bottom: 0px;
     border-bottom: dashed;
     padding-top: 4px;
 
 }
+
 #liedjeswrap {
-    font-size: 20px;
-    /*display: inline;*/
     margin-top: 4%;
-    /*text-decoration: none;*/
 }
+
 #liedjeswrap a{
     text-decoration: none;
     color: black;

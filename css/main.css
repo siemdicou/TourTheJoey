@@ -12,10 +12,11 @@ html body {
 #wrapper{
     margin: 0% 8%;
     background-color: white;
-    height: 1600px;
+    height: 1400px;
     width: 80%;
     padding: 2%;
 }
+
 #content{
     width: 78%;
     float: left;
@@ -58,13 +59,17 @@ html body {
 }
 
 #pagination {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 84%;
     height:50px;
     margin:0% 8%;
-    background: linear-gradient(orange 5%, yellow 15%, white 80%);
+    background:  linear-gradient( #f9c70e 0%, rgba(241,231,103,1) 35%, white 70%);
+    /*progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=1 );*/
     text-align: center;
+    font-weight:bold;
+
+    
 
 
 }
@@ -73,5 +78,6 @@ html body {
     border-right: 1px solid;
     padding-right: 15px; 
     color: black;
+    font-weight:bold;
 
 }
