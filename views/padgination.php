@@ -8,7 +8,7 @@
 <?php 
 for ($i=2; $i < 25; $i++) { 
 		if ($i > date('d')) {
-			echo "<td> ".$i."</td>";
+			echo "<td class=newPagination> ".$i."</td>";
 		}
 		if ($i == date('d')) {
 			echo "<td class='currentPagination'><a href='?page=home&current_day=".$i."'>".$i."</a></td>";
