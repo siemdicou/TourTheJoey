@@ -2,10 +2,13 @@
     <div class="page_title">
         Tour Top lijsten van BN'ers
     </div>
-    <div class="back_today">
-        <img src="img/indicator.png">
-        vandaag
-    </div>
+    <a href='?home&current_day=16'>
+        <div class="back_today">
+            <img src="img/indicator.png">
+            vandaag
+        </div>
+    </a>
+
 </div>
 <?php 
 	for ($i=0; $i < 5; $i++) {

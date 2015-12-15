@@ -2,7 +2,7 @@
 
 <div id="page_header_detail">
     <div class="page_title">
-        Complete Tour Top 100
+        Prijsvraag
         <img src='img/01_2.png'>
     </div>
 
@@ -17,7 +17,9 @@
 
 <img src="img/prijsvraag.png" class="prijsvraag_img" >
 <?php
+    echo "<div id='numbers'>";
 	echo $ask['numbers'];
+    echo "</div>";
 	echo "  ";
 	echo utf8_encode($ask['artist']);
 	echo ": ";
@@ -40,7 +42,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-
+<br>
 <div id="vraagtext">
 <div id="vraag">
     VRAAG
