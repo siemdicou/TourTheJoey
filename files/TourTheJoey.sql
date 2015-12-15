@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.11
+-- version 4.1.14
 -- http://www.phpmyadmin.net
 --
--- Machine: localhost
--- Gegenereerd op: 13 dec 2015 om 14:24
--- Serverversie: 5.6.21
--- PHP-versie: 5.6.3
+-- Host: 127.0.0.1
+-- Generation Time: Dec 15, 2015 at 09:38 PM
+-- Server version: 5.6.17
+-- PHP Version: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,59 +17,51 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Databank: `TourTheJoey`
+-- Database: `tourthejoey`
 --
 
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `comments`
+-- Table structure for table `comments`
 --
 
 CREATE TABLE IF NOT EXISTS `comments` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
+  `website` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `reactie` text NOT NULL,
-  `song_id` int(99) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `song_id` int(99) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `comments`
+--
+
+INSERT INTO `comments` (`id`, `username`, `website`, `email`, `reactie`, `song_id`) VALUES
+(1, 'ikbenapp', 'w.fs.g', 'appdekrokdil@idd.blipe', 'g', 4),
+(2, 'joey', '', 'joey@joey.nl', 'ik benjoeyyyyy', 4);
 
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `images`
---
-
-CREATE TABLE IF NOT EXISTS `images` (
-`id` int(11) NOT NULL,
-  `url` varchar(255) NOT NULL,
-  `title` varchar(255) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
-
---
--- Gegevens worden geëxporteerd voor tabel `images`
---
-
-INSERT INTO `images` (`id`, `url`, `title`) VALUES
-(1, 'img/02.png', 'sfksajflskajsaj');
-
--- --------------------------------------------------------
-
---
--- Tabelstructuur voor tabel `songs`
+-- Table structure for table `songs`
 --
 
 CREATE TABLE IF NOT EXISTS `songs` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `numbers` int(3) NOT NULL,
   `artist` varchar(255) NOT NULL,
   `song_title` varchar(255) NOT NULL,
   `youtube-url` varchar(255) NOT NULL,
-  `detail` varchar(9000) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
+  `detail` varchar(9000) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=101 ;
 
 --
--- Gegevens worden geëxporteerd voor tabel `songs`
+-- Dumping data for table `songs`
 --
 
 INSERT INTO `songs` (`id`, `numbers`, `artist`, `song_title`, `youtube-url`, `detail`) VALUES
@@ -174,77 +166,6 @@ INSERT INTO `songs` (`id`, `numbers`, `artist`, `song_title`, `youtube-url`, `de
 (99, 2, 'Michel Fugain', 'Une belle histoire', 'u2UhQAhLc2Y', ''),
 (100, 1, 'Gilbert Bécaud', 'Nathalie', 'TilQ8BIHisw', '');
 
--- --------------------------------------------------------
-
---
--- Tabelstructuur voor tabel `users`
---
-
-CREATE TABLE IF NOT EXISTS `users` (
-`id` int(11) NOT NULL,
-  `username` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `passwod` varchar(255) CHARACTER SET utf8 NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_german1_ci;
-
---
--- Gegevens worden geëxporteerd voor tabel `users`
---
-
-INSERT INTO `users` (`id`, `username`, `passwod`) VALUES
-(1, 'test', 'test123');
-
---
--- Indexen voor geëxporteerde tabellen
---
-
---
--- Indexen voor tabel `comments`
---
-ALTER TABLE `comments`
- ADD PRIMARY KEY (`id`);
-
---
--- Indexen voor tabel `images`
---
-ALTER TABLE `images`
- ADD PRIMARY KEY (`id`);
-
---
--- Indexen voor tabel `songs`
---
-ALTER TABLE `songs`
- ADD PRIMARY KEY (`id`);
-
---
--- Indexen voor tabel `users`
---
-ALTER TABLE `users`
- ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT voor geëxporteerde tabellen
---
-
---
--- AUTO_INCREMENT voor een tabel `comments`
---
-ALTER TABLE `comments`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT voor een tabel `images`
---
-ALTER TABLE `images`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
---
--- AUTO_INCREMENT voor een tabel `songs`
---
-ALTER TABLE `songs`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=101;
---
--- AUTO_INCREMENT voor een tabel `users`
---
-ALTER TABLE `users`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
