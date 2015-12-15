@@ -47,6 +47,12 @@
          		require 'logic/insertcomment.php';
          		header('location:index.php?page=detail&id='.$id.'');
          		break;	
+
+            case 'home':
+                require 'logic/home-model.php';
+                include 'views/home.php';
+            break;  
+            
          	default:
                 require 'logic/home-model.php';
          		include 'views/home.php';
