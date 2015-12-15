@@ -1,0 +1,89 @@
+#page_header_detail {
+  width: 100%;
+  margin-bottom: 2%;
+  border-bottom: dashed 1px;
+  padding-bottom: 2%;
+  height: 20px;
+}
+#detail-numbers-right {
+  font-style: italic;
+  float: right;
+  padding: 5px;
+  display: inline-block;
+  margin-top: -2%;
+}
+#detail-numbers-left {
+  font-style: italic;
+  float: left;
+  padding: 5px;
+  display: inline-block;
+}
+#numbers {
+  font-style: italic;
+  color: $white;
+  background-color: $red;
+  padding: 7px;
+  margin-right: 5px;
+  display: inline-block;
+}
+#logo_top100 {
+  background-color: $red;
+  width: 300px;
+  height: 100px;
+  img {
+    background-color: $red;
+    width: 300px;
+    height: 100px;
+  }
+}
+#detail-liedjeswrap {
+  font-size: 17px;
+  display: inline;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+}
+.detail-numbers {
+  padding: 2px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 2%;
+  margin-top: -30px;
+  text-align: center;
+  background-color: $red;
+  color: $white;
+}
+#detail-songs {
+  text-align: center;
+  margin-bottom: 2%;
+}
+#form-detailpagina {
+  margin-bottom: 2%;
+  h1 {
+    border-bottom: dashed;
+  }
+  p {
+    font-weight: bold;
+  }
+  td {
+    font-weight: bold;
+  }
+}
+textarea {
+  width: 700px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+input[type=submit] {
+  float: right;
+  padding: 5px 15px;
+  background: linear-gradient(to bottom, $color_mineral_green_approx 49%,$color_mineral_green_approx 49%,$color_mineral_green_approx 49%,$black 55%);
+  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_mineral_green_approx', endcolorstr='$black',gradienttype=0 );
+  color: $white;
+  cursor: pointer;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 5px;
+}

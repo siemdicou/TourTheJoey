@@ -1,0 +1,44 @@
+#speech_bubble {
+  float: left;
+  display: inline-block;
+  background-color: $color_regent_st_blue_approx;
+  padding: 0 2px;
+  margin: 2px;
+}
+#facebook {
+  float: right;
+  display: inline-block;
+  margin: 2px;
+}
+#twitter {
+  float: right;
+  display: inline-block;
+  margin: 2px;
+}
+#email {
+  float: right;
+  display: inline-block;
+  background-color: $gray;
+  padding: 0 2px;
+  margin: 2px;
+}
+#text_icons {
+  color: $color_regent_st_blue_approx;
+  text-align: bottom;
+  float: left;
+  display: inline-block;
+}
+
+#greycolor {
+  color: $color_quill_gray_approx;
+  display: inline-block;
+}
+
+
+
+#icon img {
+  background-color: $color_regent_st_blue_approx;
+  width: 18px;
+  height: 16px;
+  padding: 1%;
+}

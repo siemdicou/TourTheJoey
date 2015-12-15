@@ -1,0 +1,68 @@
+html body {
+  background: $url_0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 100%;
+  width: 98%;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+    margin: 0 8%;
+	background-color: $white;
+	height: 1400px;
+	width: 80%;
+	padding: 2%;
+}
+#content {
+	width: 78%;
+	float: left;
+}
+.page_title {
+    display: inline-block;
+    color: $red;
+    font-size: 20px;
+	img {
+        height: 50px;
+		margin-bottom: -25px;
+	}
+}
+.back_today {
+    display: inline-block;
+    float: right;
+    color: $color_cerulean_approx;
+    img {
+        height: 100%;
+        margin-bottom: -5px;
+	}
+}
+#sidebar {
+	width: 20%;
+	float: right;
+	height: 100%;
+	img {
+    width: 100%;
+    margin-bottom: 5px;
+	}
+}
+#pagination {
+	//Instead of the line below you could use @include border-top-left-radius($radius)
+	border-top-left-radius: 10px;
+	//Instead of the line below you could use @include border-top-right-radius($radius)
+	border-top-right-radius: 10px;
+	width: 84%;
+	height: 50px;
+	margin: 0 8%;
+	background: linear-gradient($color_supernova_approx 0, $color_portica_approx 35%, $white 70%);
+	text-align: center;
+	font-weight: bold;
+	a {
+    text-decoration: none;
+		border-right: 1px solid;
+		padding-right: 15px;
+		color: $black;
+		font-weight: bold;
+	}
+}

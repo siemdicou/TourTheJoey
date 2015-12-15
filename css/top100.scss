@@ -1,0 +1,29 @@
+#home_text {
+  padding: 1%;
+}
+.songs {
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: -30px;
+  font-size: 18px;
+}
+.numbers-song {
+  padding-bottom: 0;
+  border-bottom: dashed;
+  padding-top: 4px;
+}
+#liedjeswrap {
+  margin-top: 4%;
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+}
+#pdf {
+  height: 38px;
+  float: right;
+  color: $black;
+  img {
+    height: 100%;
+  }
+}
