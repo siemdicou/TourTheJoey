@@ -8,5 +8,5 @@
 <link rel="stylesheet" type="text/css" href="css/top100.css">
 <link rel="stylesheet" type="text/css" href="css/top100wrapper.css">
 <link rel="stylesheet" type="text/css" href="css/bn.css"> -->
-<link rel="stylesheet" type="text/css" href="css/main.scss">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <meta charset="UTF-8">
