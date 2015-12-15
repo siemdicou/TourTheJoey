@@ -11,6 +11,7 @@
 	
     while ($songs=$result->fetch_assoc()){
             echo "<div id='home_text'>";
+                    echo "<div id=home-messages'>";
                     echo "<div id='home-number-songname'>";
                     echo $songs['numbers'];
                     echo "<br>";
@@ -25,14 +26,15 @@
                     echo "<iframe src='https://www.youtube.com/embed/".$songs['youtube-url']."'width='350px' height='250px'></iframe>";
                     echo"</div>";
                     echo "<br>";
-
+                    echo "<p>";
                     echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-
+                    echo "</p>";
+                    echo"</div>";
                 echo "<div id='icons'>";
                 echo "<a href='index.php?page=detail&id=".$songs['id']."'".$songs['song_title'].">";
                     echo "<div id='speech_bubble'>";

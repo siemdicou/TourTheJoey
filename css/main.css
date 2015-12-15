@@ -180,9 +180,6 @@ footer {
   background-color: grey;
   padding: 5px; }
 
-#home-number-songname {
-  float: right; }
-
 #speech_bubble {
   float: left;
   display: inline-block;
@@ -301,7 +298,7 @@ html body {
 #wrapper {
   margin: 0 8%;
   background-color: white;
-  height: 3300px;
+  height: 3175px;
   width: 80%;
   padding: 2%; }
 
