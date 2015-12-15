@@ -31,4 +31,6 @@ echo "<div id='liedjeswrap'>";
 
     // }
 echo "</div>";
+
 ?>
+<a href="files/top100.pdf" target="_blank"><div id="pdf">Tour Top 100 als<img src="img/pdf-icon.png"></div></a>

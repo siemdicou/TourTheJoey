@@ -1,0 +1,387 @@
+//colors
+$white: white;
+$red: red;
+$color_cerulean_approx: #03a9f4;
+$color_supernova_approx: #f9c70e;
+$color_portica_approx: rgba(241,231,103,1);
+$black: black;
+$color_edward_approx: #a0a6a8;
+$gray: grey;
+$color_mineral_green_approx: #41564f;
+$color_regent_st_blue_approx: lightblue;
+$blue: blue;
+$color_quill_gray_approx: lightgrey;
+$color_chicago_approx: #59575b;
+$color_silver_chalice_approx: #aeaeae;
+$color_tapa_approx: #717475;
+
+//urls
+$url_0: url(../img/beeld.png);
+$url_1: url(../img/01.png);
+
+#wrapper {
+	margin: 0 8%;
+	background-color: $white;
+	height: 1400px;
+	width: 80%;
+	padding: 2%;
+}
+#content {
+	width: 78%;
+	float: left;
+}
+.page_title {
+	display: inline-block;
+	color: $red;
+	font-size: 20px;
+	img {
+		height: 50px;
+		margin-bottom: -25px;
+	}
+}
+.back_today {
+	display: inline-block;
+	float: right;
+	color: $color_cerulean_approx;
+	img {
+		height: 100%;
+		margin-bottom: -5px;
+	}
+}
+#sidebar {
+	width: 20%;
+	float: right;
+	height: 100%;
+	img {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+#pagination {
+	//Instead of the line below you could use @include border-top-left-radius($radius)
+	border-top-left-radius: 10px;
+	//Instead of the line below you could use @include border-top-right-radius($radius)
+	border-top-right-radius: 10px;
+	width: 84%;
+	height: 50px;
+	margin: 0 8%;
+	background: linear-gradient($color_supernova_approx 0, $color_portica_approx 35%, $white 70%);
+	text-align: center;
+	font-weight: bold;
+	a {
+		text-decoration: none;
+		border-right: 1px solid;
+		padding-right: 15px;
+		color: $black;
+		font-weight: bold;
+	}
+}
+#header {
+	margin: 0 8%;
+	height: auto;
+	width: 84%;
+}
+#radio {
+	height: 70px;
+	float: right;
+	margin-right: 2%;
+}
+#sub-nav {
+	text-align: right;
+	float: right;
+	width: 100%;
+	margin-top: 1%;
+	color: $color_edward_approx;
+	margin-right: 8%;
+}
+#logo {
+	width: 20%;
+	padding-bottom: 25px;
+	float: left;
+}
+#radio-number-search {
+	float: left;
+	width: 30%;
+	padding-top: 20px;
+}
+#radio-number-search2 {
+	width: 100%;
+	height: 70px;
+}
+#fiets {
+	padding-top: 60px;
+	float: right;
+	margin-bottom: -20px;
+}
+#live-music {
+	float: right;
+	width: 15%;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+#radio_search {
+	background-color: $black;
+	margin-top: 7%;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	padding: 2px 10px;
+	table {
+		color: $white;
+		width: 100%;
+		text-align: center;
+	}
+}
+#radio_search_select {
+	background-color: $gray;
+	padding: 5px;
+}
+#page_header_detail {
+	width: 100%;
+	margin-bottom: 2%;
+	border-bottom: dashed 1px;
+	padding-bottom: 2%;
+	height: 20px;
+}
+#detail-numbers-right {
+	font-style: italic;
+	float: right;
+	padding: 5px;
+	display: inline-block;
+	margin-top: -2%;
+}
+#detail-numbers-left {
+	font-style: italic;
+	float: left;
+	padding: 5px;
+	display: inline-block;
+}
+#numbers {
+	font-style: italic;
+	color: $white;
+	background-color: $red;
+	padding: 7px;
+	margin-right: 5px;
+	display: inline-block;
+}
+#logo_top100 {
+	background-color: $red;
+	width: 300px;
+	height: 100px;
+	img {
+		background-color: $red;
+		width: 300px;
+		height: 100px;
+	}
+}
+#detail-liedjeswrap {
+	font-size: 17px;
+	display: inline;
+	text-decoration: none;
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+}
+.detail-numbers {
+	padding: 2px;
+	margin-left: 45%;
+	margin-right: 45%;
+	margin-bottom: 2%;
+	margin-top: -30px;
+	text-align: center;
+	background-color: $red;
+	color: $white;
+}
+#detail-songs {
+	text-align: center;
+	margin-bottom: 2%;
+}
+#form-detailpagina {
+	margin-bottom: 2%;
+	h1 {
+		border-bottom: dashed;
+	}
+	p {
+		font-weight: bold;
+	}
+	td {
+		font-weight: bold;
+	}
+}
+textarea {
+	width: 700px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+input[type=submit] {
+	float: right;
+	padding: 5px 15px;
+	background: linear-gradient(to bottom, $color_mineral_green_approx 49%,$color_mineral_green_approx 49%,$color_mineral_green_approx 49%,$black 55%);
+	filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_mineral_green_approx', endcolorstr='$black',gradienttype=0 );
+	color: $white;
+	cursor: pointer;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+}
+#bn_img {
+	display: inline-block;
+	float: left;
+	height: 130px;
+	margin-bottom: 10px;
+}
+#bn_title {
+	font-size: 25px;
+}
+#speech_bubble {
+	float: left;
+	display: inline-block;
+	background-color: $color_regent_st_blue_approx;
+	padding: 0 2px;
+	margin: 2px;
+}
+#facebook {
+	float: right;
+	display: inline-block;
+	margin: 2px;
+}
+#twitter {
+	float: right;
+	display: inline-block;
+	margin: 2px;
+}
+#email {
+	float: right;
+	display: inline-block;
+	background-color: $gray;
+	padding: 0 2px;
+	margin: 2px;
+}
+#text_icons {
+	color: $color_regent_st_blue_approx;
+	text-align: bottom;
+	float: left;
+	display: inline-block;
+}
+#prijsvraag {
+	margin-top: -25%;
+	padding-bottom: 20%;
+	text-align: center;
+	p {
+		background-color: $black;
+		padding: 0;
+		margin: 0;
+		color: $white;
+		text-decoration: none;
+	}
+	h2 {
+		padding: 0;
+		margin-top: 10px;
+		color: $blue;
+		text-decoration: none;
+		background-color: $black;
+	}
+}
+.prijsvraag_img {
+	float: left;
+	width: 30%;
+	margin-right: 2%;
+}
+#vraag {
+	letter-spacing: -3px;
+	font-weight: bold;
+	font-size: 30px;
+	color: $red;
+	display: inline-block;
+}
+#vraagtext {
+	font-size: 30px;
+}
+#meedoen {
+	font-size: 25px;
+	border-bottom: dotted 2px;
+	color: $red;
+	margin-bottom: 3%;
+}
+#greycolor {
+	color: $color_quill_gray_approx;
+	display: inline-block;
+}
+#home_text {
+	padding: 1%;
+}
+.songs {
+	text-decoration: none;
+	margin-left: 60px;
+	margin-top: -30px;
+	font-size: 18px;
+}
+.numbers-song {
+	padding-bottom: 0;
+	border-bottom: dashed;
+	padding-top: 4px;
+}
+#liedjeswrap {
+	margin-top: 4%;
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+}
+#pdf {
+	height: 38px;
+	float: right;
+	color: $black;
+	img {
+		height: 100%;
+	}
+}
+footer {
+	margin-top: 10px;
+	background: linear-gradient(grey 20% , $color_chicago_approx 80%);
+	text-align: center;
+	padding: 1%;
+	color: $color_silver_chalice_approx;
+	width: 100%;
+}
+.footerButton {
+	border-left: 1px solid;
+	display: inline-block;
+	padding: 0 2%;
+	color: $color_silver_chalice_approx;
+	text-decoration: none;
+}
+.header-Button {
+	border-right: 1px solid;
+	display: inline-block;
+	padding: 0 1%;
+	color: $color_tapa_approx;
+	text-decoration: none;
+}
+.right-Button {
+	display: inline-block;
+	padding-left: 1%;
+	color: $color_tapa_approx;
+	text-decoration: none;
+}
+#copyright {
+	display: inline-block;
+	padding-right: 2%;
+	text-decoration: none;
+}
+html body {
+	background: $url_0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	height: 100%;
+	width: 98%;
+	padding: 0;
+	margin: 0;
+}
+#icon img {
+	background-color: $color_regent_st_blue_approx;
+	width: 18px;
+	height: 16px;
+	padding: 1%;
+}
