@@ -2,10 +2,12 @@
     <div class="page_title">
         Vandaag in de Radio 1 Tour Top 100
     </div>
+    <a href='?home&current_day=16'>
     <div class="back_today">
         <img src="img/indicator.png">
         vandaag
     </div>
+    </a>
 </div>
 <?php
 	
