@@ -51,7 +51,7 @@ html body {
 .currentPagination{
 	background-color:$white;
 	border:solid 2px $red;
-	 box-shadow: 3px 3px 5px #888888;
+	 box-shadow: inset  3px 3px 1px #888888;
 	a{
 
 		text-decoration: none;
@@ -77,7 +77,7 @@ html body {
 	//Instead of the line below you could use @include border-top-right-radius($radius)
 	border-top-right-radius: 10px;
 	width: 84%;
-	height: 40px;
+	height: 4 0px;
 	margin: 0 8%;
 	background: linear-gradient($color_supernova_approx 0, $color_portica_approx 35%, $white 70%);
 	text-align: center;

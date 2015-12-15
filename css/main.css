@@ -336,7 +336,7 @@ html body {
 .currentPagination {
   background-color: white;
   border: solid 2px red;
-  box-shadow: 3px 3px 5px #888888; }
+  box-shadow: inset  3px 3px 1px #888888; }
   .currentPagination a {
     text-decoration: none;
     color: black; }
@@ -352,7 +352,7 @@ html body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 84%;
-  height: 40px;
+  height: 4 0px;
   margin: 0 8%;
   background: linear-gradient(#f9c70e 0, #f1e767 35%, white 70%);
   text-align: center;
