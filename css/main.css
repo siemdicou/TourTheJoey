@@ -180,6 +180,13 @@ footer {
   background-color: grey;
   padding: 5px; }
 
+#home_text {
+  margin-bottom: 5%; }
+
+#home-video {
+  float: left;
+  margin-right: 3%; }
+
 #speech_bubble {
   float: left;
   display: inline-block;
@@ -214,11 +221,8 @@ footer {
   color: lightgrey;
   display: inline-block; }
 
-#icon img {
-  background-color: lightblue;
-  width: 18px;
-  height: 16px;
-  padding: 1%; }
+#icons {
+  margin: 8% 0% 2% 0%; }
 
 #prijsvraag {
   margin-top: -25%;

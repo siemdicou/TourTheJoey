@@ -2,11 +2,14 @@
 
 
 }
-#home-number-songname{
-
+#home_text{
+  margin-bottom: 5%;
 
 }
 #home-video{
+  float: left;
+  margin-right:3%;
+
 
 
 }
@@ -47,11 +50,6 @@
   display: inline-block;
 }
 
-
-
-#icon img {
-  background-color: $color_regent_st_blue_approx;
-  width: 18px;
-  height: 16px;
-  padding: 1%;
+#icons{
+  margin: 8% 0% 2% 0%;
 }
