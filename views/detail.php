@@ -88,37 +88,37 @@
 	    }
  
                     // <!-- reactie form -->
-echo '<div id="form-detailpagina">';
-echo "<h1>Reageer op dit bericht</h1>";
-echo '<form method="POST" method="POST" action="?page=insert_comment&id='.$current_id.'">';
-echo ' <p>Naam</p>';
-echo '<input type="text" name="username" required>';
-echo '<p>Email (wordt niet getoond)</p>';
-echo '<input type="email" name="email" required>';
-echo '<p>Website</p>';
-echo '<input type="text" name="website">';
-echo '<p>Reactie</p>';
-echo'<textarea name="reactie" required></textarea>';
-echo'<br>';
-echo'<table>';
-echo'<tr>';
-echo'<td>';
-echo'<input type="checkbox">';
-echo'</td>';
-echo'<td>Gegevens onthouden</td>';
-echo'</tr>';
-echo'<tr>';
-echo'<td>';
-echo'<input type="checkbox">';
-echo'</td>';
-echo'<td>Mail bij nieuwe reactie ';
-echo'</td>';
-echo'</tr>';
-echo'</table>';
-echo'<input type="submit" value="Verstuur">';
+	echo '<div id="form-detailpagina">';
+	echo "<h1>Reageer op dit bericht</h1>";
+	echo '<form method="POST" method="POST" action="?page=insert_comment&id='.$current_id.'">';
+	echo ' <p>Naam</p>';
+	echo '<input type="text" name="username" required>';
+	echo '<p>Email (wordt niet getoond)</p>';
+	echo '<input type="email" name="email" required>';
+	echo '<p>Website</p>';
+	echo '<input type="text" name="website">';
+	echo '<p>Reactie</p>';
+	echo'<textarea name="reactie" required></textarea>';
+	echo'<br>';
+	echo'<table>';
+	echo'<tr>';
+	echo'<td>';
+	echo'<input type="checkbox">';
+	echo'</td>';
+	echo'<td>Gegevens onthouden</td>';
+	echo'</tr>';
+	echo'<tr>';
+	echo'<td>';
+	echo'<input type="checkbox">';
+	echo'</td>';
+	echo'<td>Mail bij nieuwe reactie ';
+	echo'</td>';
+	echo'</tr>';
+	echo'</table>';
+	echo'<input type="submit" value="Verstuur">';
 
-echo'</form>';
-echo'</div>';
+	echo'</form>';
+	echo'</div>';
 ?>
 
 

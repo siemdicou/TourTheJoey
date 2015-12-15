@@ -51,3 +51,22 @@
     padding-left: 150px;
     padding-top:50px;
 }
+
+#radio_search{
+    background-color: black;  
+    margin-top:7%;  
+    border-radius: 10px; 
+    padding: 2px 10px;
+}
+
+#radio_search table{
+    color: white;   
+    width: 100%;    
+    text-align: center;
+}
+
+#radio_search_select{
+    background-color: grey;
+    padding: 5px;
+
+}

@@ -20,6 +20,7 @@
         // $current_id = (empty($_GET['current_id'])) ? '' : $_GET['current_id'];
         switch($page){
             case 'top':
+                require 'logic/top100-model.php';
                 include'views/top100.php';
          	break;
 
@@ -33,15 +34,12 @@
                 include'views/prijsvraag.php';
             break;
 
-            case 'daily':
-                include'views/daily.php';
-            break;
-
          	case 'insert_comment':
          		require 'logic/insertcomment.php';
          		header('location:index.php?page=detail&id='.$id.'');
          		break;	
          	default:
+                require 'logic/home-model.php';
          		include 'views/home.php';
          	break;	
          	};
