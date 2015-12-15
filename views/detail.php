@@ -121,8 +121,14 @@
 
 
 while ($songs=$result4->fetch_assoc()) {
+
+    echo "<div id='username-presentation'>";
     echo $songs ['username'];
+    echo "</div>";
+
+    echo "<div id='reactie-presentation'>";
     echo $songs ['reactie'];
+    echo "</div>";
 
 }
 ?>
