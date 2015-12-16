@@ -6,6 +6,7 @@
 	include 'views/sub-nav.html';
 	include 'views/header.php';
 	include 'views/padgination.php';
+
 ?>
 <div id="wrapper">
 
@@ -16,17 +17,12 @@
         $current_day = (empty($_GET['current_day'])) ? '' : $_GET['current_day'];
         $id = (empty($_GET['id'])) ? '' : $_GET['id'];
          // $id = (empty($_GET['id'])) ? '' : $_GET['id'];
-        
         // $current_id = (empty($_GET['current_id'])) ? '' : $_GET['current_id'];
         switch($page){
 
             case 'top':
-                echo "<div id='top100wrapper'>";
                 require 'logic/top100-model.php';
                 include'views/top100.php';
-                echo "</div>";
-                echo "<div id='top100footer'>";
-                echo "</div>";
          	break;
 
          	case 'detail':
@@ -45,17 +41,17 @@
 
          	case 'insert_comment':
          		require 'logic/insertcomment.php';
-         		header('location:index.php?page=detail&id='.$id.'');
+         		header("location:index.php?page=detail&id='".$id."'");
          		break;	
 
             case 'home':
                 require 'logic/home-model.php';
                 include 'views/home.php';
             break;  
-            
+
          	default:
-                require 'logic/home-model.php';
-         		include 'views/home.php';
+                require 'logic/top100-model.php';
+                include'views/top100.php';
          	break;	
          	};
 

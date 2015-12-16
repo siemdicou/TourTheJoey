@@ -4,7 +4,7 @@
         <img src='img/01_2.png'>
     </div>
 
-    <a href='?home&current_day=16'>
+    <a href='?page=home&current_day=16'>
         <div class="back_today">
             <img src="img/indicator.png">
             vandaag
