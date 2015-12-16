@@ -8,7 +8,7 @@ $id = $_GET['id'];
 
 $sql= "INSERT INTO comments (username, website, email, reactie, song_id)
 VALUES ('$username', '$website', '$email', '$reactie', '$id')";
-echo $sql;
+// echo $sql;
 $result_comment= $mysqli->query($sql);
 
 

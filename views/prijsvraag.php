@@ -6,7 +6,7 @@
         <img src='img/01_2.png'>
     </div>
 
-    <a href='?home&current_day=16'>
+    <a href='?page=home&current_day=16'>
         <div class="back_today">
             <img src="img/indicator.png">
             vandaag
@@ -47,7 +47,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div id="vraag">
     VRAAG
 </div>
-Wat was de debuut naam van Julien Clerc?
+Wat was het debuutalbum van Julien Clerc?
 </div>
 <br>
 <br>

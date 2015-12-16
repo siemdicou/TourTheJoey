@@ -300,12 +300,13 @@ html body {
   height: 100%;
   width: 98%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: "calibri", "arial"; }
 
 #wrapper {
   margin: 0 8%;
   background-color: white;
-  height: 3175px;
+  height: 3600px;
   width: 80%;
   padding: 2%; }
 
