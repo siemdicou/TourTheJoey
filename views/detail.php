@@ -122,15 +122,27 @@
 	echo'</form>';
 	echo'</div>';
 
-
+echo "<div id='reactie-title'>";
+echo "<h1>Reacties op dit bericht[ ]</h1>";
+echo "</div>";
 while ($songs=$result4->fetch_assoc()) {
+    echo "<div id='reactie-presentation'>";
+    echo "<br>";
+    echo "<br>";
 
     echo "<div id='username-presentation'>";
     echo $songs ['username'];
     echo "</div>";
 
+    echo "<br>";
+
     echo "<div id='reactie-presentation'>";
     echo $songs ['reactie'];
+
+    echo "<br>";
+    echo "<br>";
+
+    echo "</div>";
     echo "</div>";
 
 }

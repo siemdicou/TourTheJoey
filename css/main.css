@@ -93,6 +93,16 @@ input[type=submit] {
   cursor: pointer;
   border-radius: 5px; }
 
+#reactie-title {
+  color: #ff0000;
+  border-bottom: dashed 2px; }
+
+#reactie-presentation {
+  border-bottom: dashed 1px; }
+
+#username-presentation {
+  font-weight: bold; }
+
 footer {
   margin-top: 10px;
   background: linear-gradient(grey 20%, #59575b 80%);

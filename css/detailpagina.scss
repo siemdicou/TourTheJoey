@@ -87,8 +87,17 @@ input[type=submit] {
   //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
   border-radius: 5px;
 }
+#reactie-title{
+  color: #ff0000;
+  border-bottom: dashed 2px;
+
+}
+#reactie-presentation{
+  border-bottom: dashed 1px;
+
+}
 #username-presentation{
-  
+  font-weight: bold;
 
 }
 #reactiepresentation{
