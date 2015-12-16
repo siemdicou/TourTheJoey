@@ -1,7 +1,7 @@
 <!--/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>alle invidueele deeltjes die in de header zitten worden hier geladen en gestyled<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/-->
 
 <div id="header">	
-	<div id="logo"><img src="img/logo.png"></div>
+	<a href='?page=home&current_day=16'><div id="logo"><img src="img/logo.png"></div></a>
     <div id="radio-number-search">
         <img src="img/payoff.png" >
     <!-- <img src="img/placeholder.jpg" id="radio-number-search2"> -->
